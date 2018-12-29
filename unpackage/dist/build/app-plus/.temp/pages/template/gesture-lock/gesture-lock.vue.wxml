@@ -1,0 +1,12 @@
+<import src="/components/mpvueGestureLock/index.vue.wxml" />
+<template name="3a558961">
+  <view class="_view data-v-2d3583b8">
+    <page-head title="{{title}}" class="_page-head data-v-2d3583b8"></page-head>
+    <view class="_view data-v-2d3583b8 uni-padding-wrap uni-common-mt">
+      <view class="_view data-v-2d3583b8">
+        <template bindend="handleProxy" data-eventid="{{'wh4-0'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'o2Y-1'],$root}}" is="113d9a24"></template>
+      </view>
+      <view class="_view data-v-2d3583b8 uni-helllo-text uni-common-mt uni-center">{{text}}</view>
+    </view>
+  </view>
+</template>

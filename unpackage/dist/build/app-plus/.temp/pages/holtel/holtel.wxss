@@ -1,0 +1,2 @@
+@import "../../common/vendor.wxss";
+.content{background:#fff;padding:30rpx}.title{font-size:36rpx;color:#333;font-weight:700;font-family:PingFang-SC-Medium}.detail{font-size:28rpx;line-height:42rpx;color:#333}

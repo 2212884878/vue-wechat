@@ -1,0 +1,19 @@
+<template name="0ea8b3f8">
+  <view class="_view data-v-6fb44287">
+    <page-head title="{{title}}" class="_page-head data-v-6fb44287"></page-head>
+    <view class="_view data-v-6fb44287 uni-padding-wrap uni-common-mt">
+      <view class="_view data-v-6fb44287 uni-title"> 示例1
+        <text class="_text data-v-6fb44287">\n本地图片</text>
+      </view>
+      <view class="_view data-v-6fb44287 uni-center" style="background:#FFFFFF; font-size:0;">
+        <image class="_image data-v-6fb44287 image" mode="widthFix" src="../../../static/uni@2x.png"></image>
+      </view>
+      <view class="_view data-v-6fb44287 uni-title uni-common-mt"> 示例2
+        <text class="_text data-v-6fb44287">\n网络图片</text>
+      </view>
+      <view class="_view data-v-6fb44287 uni-center" style="background:#FFFFFF; font-size:0;">
+        <image class="_image data-v-6fb44287 image" mode="widthFix" src="https://img-cdn-qiniu.dcloud.net.cn/uniapp/images/uni@2x.png"></image>
+      </view>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,6 @@
+<template name="5e7a4f95">
+  <view class="_view data-v-74df4af4 page-share-title">
+    <text class="_text data-v-74df4af4">感谢{{name}}提供本示例，</text>
+    <text class="_text data-v-74df4af4 submit" bindtap="handleProxy" data-eventid="{{'HBx-0'}}" data-comkey="{{$k}}">我也提交</text>
+  </view>
+</template>

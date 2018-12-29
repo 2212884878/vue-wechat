@@ -1,0 +1,47 @@
+<template name="3f0f74c5">
+  <view class="_view data-v-1884cbc1">
+    <view class="_view data-v-1884cbc1 container">
+      <view class="_view data-v-1884cbc1 header">
+        <view class="_view data-v-1884cbc1 tips"> 您的意见使我们前进的动力 </view>
+        <view class="_view data-v-1884cbc1 feedBackType"> 请选择反馈的类型 </view>
+      </view>
+      <view class="_view data-v-1884cbc1 uni-common-mt">
+        <view class="_view data-v-1884cbc1 question">
+          <textarea value="{{aggesion}}" placeholder=" 请描述您问他发生的场景，并添加截图，这有助于我们快速解决您的问他" bindinput="handleProxy" maxlength="200" data-eventid="{{'qAe-0'}}" data-comkey="{{$k}}" class="_textarea data-v-1884cbc1" />
+          <text class="_text data-v-1884cbc1">{{aggesion.length||0}}/200</text>
+        </view>
+        <form class="_form data-v-1884cbc1">
+          <view class="_view data-v-1884cbc1 uni-list list-pd">
+            <view class="_view data-v-1884cbc1 uni-list-cell cell-pd">
+              <view class="_view data-v-1884cbc1 uni-uploader">
+                <view class="_view data-v-1884cbc1 uni-uploader-head">
+                  <view class="_view data-v-1884cbc1 uni-uploader-info">添加截图最多{{picMax}}张</view>
+                </view>
+                <view class="_view data-v-1884cbc1 uni-uploader-body">
+                  <view class="_view data-v-1884cbc1 uni-uploader__files">
+                    <block wx:key="index" key="{{index}}" wx:for="{{imageList}}" wx:for-index="index" wx:for-item="image">
+                      <view class="_view data-v-1884cbc1 uni-uploader__file">
+                        <image class="_image data-v-1884cbc1 uni-uploader__img" src="{{image}}" data-src="{{image}}" bindtap="handleProxy" data-eventid="{{'DTm-1-'+index}}" data-comkey="{{$k}}"></image>
+                      </view>
+                    </block>
+                    <view class="_view data-v-1884cbc1 uni-uploader__input-box">
+                      <view class="_view data-v-1884cbc1 uni-uploader__input" bindtap="handleProxy" data-eventid="{{'U3R-2'}}" data-comkey="{{$k}}"></view>
+                    </view>
+                  </view>
+                </view>
+              </view>
+            </view>
+          </view>
+        </form>
+      </view>
+      <view class="_view data-v-1884cbc1 contact">
+        <view class="_view data-v-1884cbc1 contactText">
+          <text class="_text data-v-1884cbc1">*</text>电话联系方式 </view>
+        <view class="_view data-v-1884cbc1 contactNum">
+          <input type="number" value="{{phone}}" bindinput="handleProxy" placeholder="必填信息项" placeholder-style="text-align:right" data-eventid="{{'ZvN-3'}}" data-comkey="{{$k}}" class="_input data-v-1884cbc1" />
+        </view>
+      </view>
+      <view class="_view data-v-1884cbc1 footer"> 提交反馈 </view>
+    </view>
+  </view>
+</template>

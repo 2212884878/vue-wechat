@@ -1,0 +1,78 @@
+<template name="703361c5">
+  <view class="_view data-v-04c2335c mine">
+    <view class="_view data-v-04c2335c mine-top" bindtap="handleProxy" data-eventid="{{'Bge-0'}}" data-comkey="{{$k}}">
+      <view class="_view data-v-04c2335c top-left">
+        <image src="../../../static/mine-tuoxiang.png" class="_image data-v-04c2335c one-img1"></image>
+        <view class="_view data-v-04c2335c one-content">
+          <view class="_view data-v-04c2335c t1">会飞的鱼</view>
+          <view class="_view data-v-04c2335c t2">蓝卡会员</view>
+        </view>
+      </view>
+      <image src="../../../static/gd@2x.png" class="_image data-v-04c2335c one-img2"></image>
+    </view>
+    <view class="_view data-v-04c2335c mine-two">
+      <view class="_view data-v-04c2335c two-content">
+        <view class="_view data-v-04c2335c c-text1">100.0</view>
+        <view class="_view data-v-04c2335c c-text3">余额</view>
+      </view>
+      <view class="_view data-v-04c2335c two-content">
+        <view class="_view data-v-04c2335c c-text2">2</view>
+        <view class="_view data-v-04c2335c c-text3">卡券</view>
+      </view>
+      <view class="_view data-v-04c2335c two-content">
+        <view class="_view data-v-04c2335c c-text2">146</view>
+        <view class="_view data-v-04c2335c c-text3">积分</view>
+      </view>
+    </view>
+    <view class="_view data-v-04c2335c mine-three">
+      <view class="_view data-v-04c2335c three-list" bindtap="handleProxy" data-eventid="{{'tlO-1'}}" data-comkey="{{$k}}">
+        <view class="_view data-v-04c2335c list-left">
+          <image src="../../../static/wddd@2x.png" class="_image data-v-04c2335c left-img1"></image>
+          <view class="_view data-v-04c2335c left-c">我的订单</view>
+        </view>
+        <image src="../../../static/gd@2x.png" class="_image data-v-04c2335c list-right"></image>
+      </view>
+      <view class="_view data-v-04c2335c three-list" bindtap="handleProxy" data-eventid="{{'ms1-2'}}" data-comkey="{{$k}}">
+        <view class="_view data-v-04c2335c list-left">
+          <image src="../../../static/gwc@2x.png" class="_image data-v-04c2335c left-img1"></image>
+          <view class="_view data-v-04c2335c left-c">购物车</view>
+        </view>
+        <image src="../../../static/gd@2x.png" class="_image data-v-04c2335c list-right"></image>
+      </view>
+      <view class="_view data-v-04c2335c three-list">
+        <view class="_view data-v-04c2335c list-left">
+          <image src="../../../static/dzfp@2x.png" class="_image data-v-04c2335c left-img1"></image>
+          <view class="_view data-v-04c2335c left-c">电子发票</view>
+        </view>
+        <image src="../../../static/gd@2x.png" class="_image data-v-04c2335c list-right"></image>
+      </view>
+    </view>
+    <view class="_view data-v-04c2335c mine-three">
+      <view class="_view data-v-04c2335c three-list">
+        <view class="_view data-v-04c2335c list-left">
+          <image src="../../../static/dygn@2x.png" class="_image data-v-04c2335c left-img1"></image>
+          <view class="_view data-v-04c2335c left-c">导游功能</view>
+        </view>
+        <image src="../../../static/gd@2x.png" class="_image data-v-04c2335c list-right"></image>
+      </view>
+      <view class="_view data-v-04c2335c three-list">
+        <view class="_view data-v-04c2335c list-left">
+          <image src="../../../static/qmyx@2x.png" class="_image data-v-04c2335c left-img1"></image>
+          <view class="_view data-v-04c2335c left-c">全民营销</view>
+        </view>
+        <image src="../../../static/gd@2x.png" class="_image data-v-04c2335c list-right"></image>
+      </view>
+      <view class="_view data-v-04c2335c three-list" bindtap="handleProxy" data-eventid="{{'43G-3'}}" data-comkey="{{$k}}">
+        <view class="_view data-v-04c2335c list-left">
+          <image src="../../../static/fk@2x.png" class="_image data-v-04c2335c left-img1"></image>
+          <view class="_view data-v-04c2335c left-c">反馈</view>
+        </view>
+        <image src="../../../static/gd@2x.png" class="_image data-v-04c2335c list-right"></image>
+      </view>
+    </view>
+    <view class="_view data-v-04c2335c mine-four">
+      <view class="_view data-v-04c2335c four-c c1">联系我们</view>
+      <view class="_view data-v-04c2335c four-c c2">027-131469342</view>
+    </view>
+  </view>
+</template>

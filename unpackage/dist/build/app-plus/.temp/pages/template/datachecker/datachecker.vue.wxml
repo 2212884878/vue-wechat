@@ -1,0 +1,39 @@
+<template name="502eae1f">
+  <view class="_view data-v-2394ff70">
+    <page-head title="{{title}}" class="_page-head data-v-2394ff70"></page-head>
+    <view class="_view data-v-2394ff70 uni-padding-wrap">
+      <form bindsubmit="handleProxy" bindreset="handleProxy" data-eventid="{{'yrp-0'}}" data-comkey="{{$k}}" class="_form data-v-2394ff70">
+        <view class="_view data-v-2394ff70">
+          <view class="_view data-v-2394ff70 uni-title">姓名</view>
+          <view class="_view data-v-2394ff70 uni-list">
+            <view class="_view data-v-2394ff70 uni-list-cell">
+              <input class="_input data-v-2394ff70 uni-input" name="nickname" placeholder="请填写您的昵称" />
+            </view>
+          </view>
+        </view>
+        <view class="_view data-v-2394ff70">
+          <view class="_view data-v-2394ff70 uni-title">性别</view>
+          <radio-group class="_radio-group data-v-2394ff70 uni-flex" name="gender">
+            <label class="_label data-v-2394ff70">
+              <radio value="男" class="_radio data-v-2394ff70" />男</label>
+            <label class="_label data-v-2394ff70">
+              <radio value="女" class="_radio data-v-2394ff70" />女</label>
+          </radio-group>
+        </view>
+        <view class="_view data-v-2394ff70">
+          <view class="_view data-v-2394ff70 uni-title">爱好</view>
+          <checkbox-group class="_checkbox-group data-v-2394ff70 uni-flex" name="loves">
+            <label class="_label data-v-2394ff70">
+              <checkbox value="读书" class="_checkbox data-v-2394ff70"></checkbox>读书</label>
+            <label class="_label data-v-2394ff70">
+              <checkbox value="写字" class="_checkbox data-v-2394ff70"></checkbox>写字</label>
+          </checkbox-group>
+        </view>
+        <view class="_view data-v-2394ff70 uni-btn-v uni-common-mt">
+          <button class="_button data-v-2394ff70 btn-submit" formType="submit" type="primary">Submit</button>
+          <button type="default" formType="reset" class="_button data-v-2394ff70">Reset</button>
+        </view>
+      </form>
+    </view>
+  </view>
+</template>

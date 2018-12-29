@@ -1,0 +1,34 @@
+<template name="0a99486e">
+  <view class="_view data-v-1a1e69e8">
+    <page-head title="{{title}}" class="_page-head data-v-1a1e69e8"></page-head>
+    <view class="_view data-v-1a1e69e8 uni-padding-wrap">
+      <view class="_view data-v-1a1e69e8 uni-title">分享内容</view>
+      <view class="_view data-v-1a1e69e8 uni-textarea">
+        <textarea class="_textarea data-v-1a1e69e8 textarea" value="{{shareText}}" bindinput="handleProxy" data-eventid="{{'Zky-0'}}" data-comkey="{{$k}}" />
+      </view>
+      <view class="_view data-v-1a1e69e8 uni-title">分享图片：</view>
+      <view class="_view data-v-1a1e69e8 uni-uploader" style="padding:15rpx; background:#FFF;">
+        <view class="_view data-v-1a1e69e8 uni-uploader__input-box" wx:if="{{!image}}" bindtap="handleProxy" data-eventid="{{'QmW-1'}}" data-comkey="{{$k}}"></view>
+        <image class="_image data-v-1a1e69e8 uni-uploader__img" wx:if="{{image}}" src="{{image}}"></image>
+      </view>
+      <view class="_view data-v-1a1e69e8 uni-title">分享类型：</view>
+      <view class="_view data-v-1a1e69e8">
+        <radio-group bindchange="handleProxy" data-eventid="{{'fLM-2'}}" data-comkey="{{$k}}" class="_radio-group data-v-1a1e69e8">
+          <label class="_label data-v-1a1e69e8 radio">
+            <radio value="1" checked="true" class="_radio data-v-1a1e69e8" />文字 </label>
+          <label class="_label data-v-1a1e69e8 radio">
+            <radio value="2" class="_radio data-v-1a1e69e8" />图片 </label>
+          <label class="_label data-v-1a1e69e8 radio">
+            <radio value="0" class="_radio data-v-1a1e69e8" />图文 </label>
+          <label class="_label data-v-1a1e69e8 radio">
+            <radio value="5" class="_radio data-v-1a1e69e8" />小程序 </label>
+        </radio-group>
+      </view>
+      <view class="_view data-v-1a1e69e8 uni-btn-v uni-common-mt" wx:if="{{providerList.length > 0}}">
+        <block wx:key="index" key="{{index}}" wx:for="{{providerList}}" wx:for-index="index" wx:for-item="value">
+          <button type="primary" wx:if="{{value}}" disabled="{{shareType === 5 && value.name !== '分享到微信好友'}}" bindtap="handleProxy" data-eventid="{{'g5e-3-'+index}}" data-comkey="{{$k}}" class="_button data-v-1a1e69e8">{{value.name}}</button>
+        </block>
+      </view>
+    </view>
+  </view>
+</template>

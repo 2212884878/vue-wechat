@@ -1,0 +1,49 @@
+<template name="5584e921">
+  <view class="_view data-v-f218ee10 page">
+    <page-head title="{{title}}" class="_page-head data-v-f218ee10"></page-head>
+    <view class="_view data-v-f218ee10">
+      <view class="_view data-v-f218ee10 uni-title uni-center">双栏时间轴</view>
+      <view class="_view data-v-f218ee10 uni-timeline" style="padding: 30rpx 20rpx;background-color: #fff;">
+        <view class="_view data-v-f218ee10 uni-timeline-item uni-timeline-first-item">
+          <view class="_view data-v-f218ee10 uni-timeline-item-keynode">2018.05</view>
+          <view class="_view data-v-f218ee10 uni-timeline-item-divider"></view>
+          <view class="_view data-v-f218ee10 uni-timeline-item-content">uni-app 立项</view>
+        </view>
+        <view class="_view data-v-f218ee10 uni-timeline-item">
+          <view class="_view data-v-f218ee10 uni-timeline-item-keynode">2018.07</view>
+          <view class="_view data-v-f218ee10 uni-timeline-item-divider"></view>
+          <view class="_view data-v-f218ee10 uni-timeline-item-content">uni-app 正式发布，使用vue技术，开发一次，iOS、Android、微信小程序三端同时生成</view>
+        </view>
+        <view class="_view data-v-f218ee10 uni-timeline-item uni-timeline-last-item">
+          <view class="_view data-v-f218ee10 uni-timeline-item-keynode">2018.10</view>
+          <view class="_view data-v-f218ee10 uni-timeline-item-divider"></view>
+          <view class="_view data-v-f218ee10 uni-timeline-item-content">uni-app 支持使用 npm 安装依赖，支持微信小程序自定义组件</view>
+        </view>
+      </view>
+      <view class="_view data-v-f218ee10 uni-title uni-center">单栏时间轴</view>
+      <view class="_view data-v-f218ee10 uni-timeline" style="padding: 30rpx 20rpx;background-color: #fff;">
+        <view class="_view data-v-f218ee10 uni-timeline-item uni-timeline-first-item">
+          <view class="_view data-v-f218ee10 uni-timeline-item-divider"></view>
+          <view class="_view data-v-f218ee10 uni-timeline-item-content">
+            <view class="_view data-v-f218ee10"> uni-app 立项 </view>
+            <view class="_view data-v-f218ee10 datetime"> 2018.05 </view>
+          </view>
+        </view>
+        <view class="_view data-v-f218ee10 uni-timeline-item">
+          <view class="_view data-v-f218ee10 uni-timeline-item-divider"></view>
+          <view class="_view data-v-f218ee10 uni-timeline-item-content">
+            <view class="_view data-v-f218ee10">uni-app 正式发布，使用vue技术，开发一次，iOS、Android、微信小程序三端同时生成</view>
+            <view class="_view data-v-f218ee10 datetime">2018.07</view>
+          </view>
+        </view>
+        <view class="_view data-v-f218ee10 uni-timeline-item uni-timeline-last-item">
+          <view class="_view data-v-f218ee10 uni-timeline-item-divider"></view>
+          <view class="_view data-v-f218ee10 uni-timeline-item-content">
+            <view class="_view data-v-f218ee10">uni-app 支持使用 npm 安装依赖，支持微信小程序自定义组件</view>
+            <view class="_view data-v-f218ee10 datetime">2018.10</view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

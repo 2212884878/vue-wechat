@@ -1,0 +1,13 @@
+
+      !(function(){
+        var uniAppViewReadyCallback = function(){
+          setCssToHead([[2,1],".",[1],"cell-pd{padding:",[0,22]," ",[0,30],"}\n.",[1],"list-pd{margin-top:",[0,50],"}\n.",[1],"header{padding:",[0,21],";font-size:",[0,24],";color:#999}\n.",[1],"feedBackType{font-size:",[0,28],";color:#333}\n.",[1],"question{text-align:left;padding:",[0,34]," 0 0 ",[0,31],";background:#fff;position:relative}\n.",[1],"question wx-text{position:absolute;bottom:0;right:",[0,30],";font-size:",[0,26],";color:#999}\n.",[1],"uni-uploader__img,.",[1],"uni-uploader__input-box{width:",[0,120],";height:",[0,120],"}\n.",[1],"uni-uploader__file{width:",[0,124],";height:",[0,124],"}\n.",[1],"footer{position:fixed;bottom:0;left:0;width:100%;line-height:",[0,100],";background:#0764e9;font-size:",[0,36],";color:#fff;text-align:center}\n.",[1],"contact{width:100%;padding:0 ",[0,30],";box-sizing:border-box;height:",[0,90],";font-size:",[0,28],";color:#333;margin-top:",[0,24],";background:#fff;display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;justify-content:space-between}\n.",[1],"contactText wx-text{color:#f01919}\n.",[1],"contactNum,.",[1],"contactText{line-height:",[0,90],"}\n.",[1],"contactNum .",[1],"_input{height:",[0,90],"}\n.",[1],"header{width:100%;position:fixed;top:0;left:0;height:",[0,88],";background:#fff;padding:0 ",[0,30],";box-sizing:border-box}\n.",[1],"header wx-view{line-height:",[0,88],"}\n.",[1],"header{zoom:1}\n.",[1],"header :after{clear:both;content:\x22.\x22;display:block;width:0;height:0;visibility:hidden}\n.",[1],"header-left,.",[1],"header-right{width:",[0,120],";height:",[0,88],"}\n.",[1],"header-left{float:left}\n.",[1],"header-right{float:right}\n.",[1],"header-center{margin:0 ",[0,120],";text-align:center}\n.",[1],"header-left wx-image{width:",[0,20],";height:",[0,35],"}\n",],"Some selectors are not allowed in component wxss, including tag name selectors, ID selectors, and attribute selectors.(./pages/feedback/feedback.wxss:2:1116)",{path:"./pages/feedback/feedback.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/feedback/feedback.wxml') } }));
+        }
+        if(window.__uniAppViewReady__){
+          uniAppViewReadyCallback()
+        }else{
+          document.addEventListener('uniAppViewReady',uniAppViewReadyCallback)
+        }
+      })();
+      

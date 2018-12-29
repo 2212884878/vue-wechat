@@ -1,0 +1,95 @@
+<import src="/components/uni-tag.vue.wxml" />
+<template name="b4382386">
+  <view class="_view data-v-7294e48e">
+    <page-head title="{{title}}" class="_page-head data-v-7294e48e"></page-head>
+    <view class="_view data-v-7294e48e uni-padding-wrap uni-common-mt">
+      <view class="_view data-v-7294e48e">
+        <view class="_view data-v-7294e48e uni-title">实心标签</view>
+        <view class="_view data-v-7294e48e tag-view">
+          <template text="标签" data="{{...$root['0'], ...$root[$kk+'yE4-1'],$root}}" is="2c23f8b4"></template>
+        </view>
+        <view class="_view data-v-7294e48e tag-view">
+          <template text="标签" type="primary" data="{{...$root['0'], ...$root[$kk+'yIb-2'],$root}}" is="2c23f8b4"></template>
+        </view>
+        <view class="_view data-v-7294e48e tag-view">
+          <template text="标签" type="success" data="{{...$root['0'], ...$root[$kk+'Hhi-3'],$root}}" is="2c23f8b4"></template>
+        </view>
+        <view class="_view data-v-7294e48e tag-view">
+          <template text="标签" type="warning" data="{{...$root['0'], ...$root[$kk+'Fkm-4'],$root}}" is="2c23f8b4"></template>
+        </view>
+        <view class="_view data-v-7294e48e tag-view">
+          <template text="标签" type="danger" data="{{...$root['0'], ...$root[$kk+'esf-5'],$root}}" is="2c23f8b4"></template>
+        </view>
+        <view class="_view data-v-7294e48e tag-view">
+          <template text="标签" type="royal" data="{{...$root['0'], ...$root[$kk+'ci5-6'],$root}}" is="2c23f8b4"></template>
+        </view>
+      </view>
+      <view class="_view data-v-7294e48e uni-title uni-common-mt">空心标签</view>
+      <view class="_view data-v-7294e48e">
+        <view class="_view data-v-7294e48e tag-view">
+          <template text="标签" inverted="true" data="{{...$root['0'], ...$root[$kk+'avu-7'],$root}}" is="2c23f8b4"></template>
+        </view>
+        <view class="_view data-v-7294e48e tag-view">
+          <template text="标签" inverted="true" type="primary" data="{{...$root['0'], ...$root[$kk+'ykz-8'],$root}}" is="2c23f8b4"></template>
+        </view>
+        <view class="_view data-v-7294e48e tag-view">
+          <template text="标签" inverted="true" type="success" data="{{...$root['0'], ...$root[$kk+'E3M-9'],$root}}" is="2c23f8b4"></template>
+        </view>
+        <view class="_view data-v-7294e48e tag-view">
+          <template text="标签" inverted="true" type="warning" data="{{...$root['0'], ...$root[$kk+'wFH-10'],$root}}" is="2c23f8b4"></template>
+        </view>
+        <view class="_view data-v-7294e48e tag-view">
+          <template text="标签" inverted="true" type="danger" data="{{...$root['0'], ...$root[$kk+'kY0-11'],$root}}" is="2c23f8b4"></template>
+        </view>
+        <view class="_view data-v-7294e48e tag-view">
+          <template text="标签" inverted="true" type="royal" data="{{...$root['0'], ...$root[$kk+'dBg-12'],$root}}" is="2c23f8b4"></template>
+        </view>
+      </view>
+      <view class="_view data-v-7294e48e uni-title uni-common-mt">点击事件</view>
+      <view class="_view data-v-7294e48e">
+        <view class="_view data-v-7294e48e tag-view">
+          <template text="标签" bindtap="handleProxy" data-eventid="{{'Fug-0'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'rb1-13'],$root}}" is="2c23f8b4"></template>
+        </view>
+        <view class="_view data-v-7294e48e tag-view">
+          <template text="标签" type="primary" bindtap="handleProxy" data-eventid="{{'yHi-1'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'Q8A-14'],$root}}" is="2c23f8b4"></template>
+        </view>
+      </view>
+      <view class="_view data-v-7294e48e uni-title uni-common-mt">小标签</view>
+      <view class="_view data-v-7294e48e">
+        <view class="_view data-v-7294e48e tag-view">
+          <template text="标签" size="small" data="{{...$root['0'], ...$root[$kk+'WT1-15'],$root}}" is="2c23f8b4"></template>
+        </view>
+        <view class="_view data-v-7294e48e tag-view">
+          <template text="标签" type="primary" size="small" data="{{...$root['0'], ...$root[$kk+'unT-16'],$root}}" is="2c23f8b4"></template>
+        </view>
+        <view class="_view data-v-7294e48e tag-view">
+          <template text="标签" type="success" size="small" data="{{...$root['0'], ...$root[$kk+'SHP-17'],$root}}" is="2c23f8b4"></template>
+        </view>
+        <view class="_view data-v-7294e48e tag-view">
+          <template text="标签" inverted="true" type="warning" size="small" data="{{...$root['0'], ...$root[$kk+'waV-18'],$root}}" is="2c23f8b4"></template>
+        </view>
+        <view class="_view data-v-7294e48e tag-view">
+          <template text="标签" inverted="true" type="danger" size="small" data="{{...$root['0'], ...$root[$kk+'KD1-19'],$root}}" is="2c23f8b4"></template>
+        </view>
+        <view class="_view data-v-7294e48e tag-view">
+          <template text="标签" inverted="true" type="royal" size="small" data="{{...$root['0'], ...$root[$kk+'v85-20'],$root}}" is="2c23f8b4"></template>
+        </view>
+      </view>
+      <view class="_view data-v-7294e48e uni-title uni-common-mt">不可点击状态</view>
+      <view class="_view data-v-7294e48e page-section">
+        <view class="_view data-v-7294e48e tag-view">
+          <template text="标签" data="{{...$root['0'], ...$root[$kk+'pj0-21'],$root}}" is="2c23f8b4"></template>
+        </view>
+        <view class="_view data-v-7294e48e tag-view">
+          <template text="标签" type="primary" data="{{...$root['0'], ...$root[$kk+'GIK-22'],$root}}" is="2c23f8b4"></template>
+        </view>
+        <view class="_view data-v-7294e48e tag-view">
+          <template text="标签" inverted="true" type="danger" size="small" data="{{...$root['0'], ...$root[$kk+'YDz-23'],$root}}" is="2c23f8b4"></template>
+        </view>
+        <view class="_view data-v-7294e48e tag-view">
+          <template text="标签" inverted="true" type="royal" size="small" data="{{...$root['0'], ...$root[$kk+'Rrl-24'],$root}}" is="2c23f8b4"></template>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

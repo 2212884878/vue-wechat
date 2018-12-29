@@ -1,0 +1,1 @@
+<import src="/pages/template/product-deatil/productDeatil.vue.wxml" /><template is="5c8f23ea" data="{{ ...$root['0'], $root }}"/>

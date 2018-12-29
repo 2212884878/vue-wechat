@@ -1,0 +1,2 @@
+@import "../../../../common/vendor.wxss";
+.uni-product-tip{background-color:#fff;color:#f16b11;border:1rpx solid #f16b11}.uni-product-tip>._span{color:#f16b11}

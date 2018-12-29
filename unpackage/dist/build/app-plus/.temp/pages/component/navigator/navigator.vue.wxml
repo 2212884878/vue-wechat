@@ -1,0 +1,15 @@
+<template name="7365f77c">
+  <view class="_view data-v-6280a102">
+    <page-head title="{{title}}" class="_page-head data-v-6280a102"></page-head>
+    <view class="_view data-v-6280a102 uni-padding-wrap uni-common-mt">
+      <view class="_view data-v-6280a102 uni-btn-v">
+        <navigator url="navigate/navigate?title=navigate" hover-class="navigator-hover" class="_navigator data-v-6280a102">
+          <button type="default" class="_button data-v-6280a102">跳转到新页面</button>
+        </navigator>
+        <navigator url="redirect/redirect?title=redirect" open-type="redirect" hover-class="other-navigator-hover" class="_navigator data-v-6280a102">
+          <button type="default" class="_button data-v-6280a102">在当前页打开</button>
+        </navigator>
+      </view>
+    </view>
+  </view>
+</template>

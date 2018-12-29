@@ -1,0 +1,16 @@
+<import src="/components/uni-load-more.vue.wxml" />
+<template name="53abff7e">
+  <view class="_view data-v-7e0542d2">
+    <page-head title="{{title}}" class="_page-head data-v-7e0542d2"></page-head>
+    <view class="_view data-v-7e0542d2 uni-padding-wrap">
+      <view class="_view data-v-7e0542d2 uni-helllo-text"> 这是uni-load-more组件使用示例，配置loadingType改变组件状态，配置contentText改变文字内容，配置showImage改变loading时是否显示loading图标，配置color改变文字和loading图标颜色。 </view>
+      <view class="_view data-v-7e0542d2 uni-title">在列表中使用</view>
+      <view class="_view data-v-7e0542d2">
+        <view class="_view data-v-7e0542d2 list-view">
+          <view class="_view data-v-7e0542d2 list-item" wx:key="index" key="{{index}}" wx:for="{{list}}" wx:for-index="index" wx:for-item="value">list - {{value}}</view>
+        </view>
+        <template data="{{...$root['0'], ...$root[$kk+'IKt-1'],$root}}" is="d86b3830"></template>
+      </view>
+    </view>
+  </view>
+</template>

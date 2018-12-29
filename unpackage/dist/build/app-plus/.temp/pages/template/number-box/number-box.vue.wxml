@@ -1,0 +1,41 @@
+<import src="/components/uni-number-box.vue.wxml" />
+<template name="42cc3821">
+  <view class="_view data-v-3bf36d38 page">
+    <page-head title="{{title}}" class="_page-head data-v-3bf36d38"></page-head>
+    <view class="_view data-v-3bf36d38 uni-input-group uni-common-mt">
+      <view class="_view data-v-3bf36d38 uni-input-row">
+        <label class="_label data-v-3bf36d38">默认</label>
+        <template data="{{...$root['0'], ...$root[$kk+'RAW-1'],$root}}" is="725b412a"></template>
+      </view>
+      <view class="_view data-v-3bf36d38 uni-input-row">
+        <label class="_label data-v-3bf36d38">限定最小值和最大值</label>
+        <template data="{{...$root['0'], ...$root[$kk+'dv3-2'],$root}}" is="725b412a"></template>
+      </view>
+      <view class="_view data-v-3bf36d38 uni-input-row">
+        <label class="_label data-v-3bf36d38">设定步长值（步长10）</label>
+        <template data="{{...$root['0'], ...$root[$kk+'R6p-3'],$root}}" is="725b412a"></template>
+      </view>
+      <view class="_view data-v-3bf36d38 uni-input-row">
+        <label class="_label data-v-3bf36d38">输入框只读</label>
+        <template data="{{...$root['0'], ...$root[$kk+'N1i-4'],$root}}" is="725b412a"></template>
+      </view>
+      <view class="_view data-v-3bf36d38 uni-input-row">
+        <label class="_label data-v-3bf36d38">获取输入的值 : {{numberValue}}</label>
+        <template bindchange="handleProxy" data-eventid="{{'tkA-0'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'sPw-5'],$root}}" is="725b412a"></template>
+      </view>
+      <view class="_view data-v-3bf36d38 uni-input-row">
+        <label class="_label data-v-3bf36d38">设置默认值</label>
+        <template data="{{...$root['0'], ...$root[$kk+'43B-6'],$root}}" is="725b412a"></template>
+      </view>
+    </view>
+    <view class="_view data-v-3bf36d38 uni-padding-wrap uni-common-mt">
+      <view class="_view data-v-3bf36d38 uni-title">行内应用</view>
+      <view class="_view data-v-3bf36d38 uni-inline-item">
+        <text class="_text data-v-3bf36d38">购买数量 : </text>
+        <template bindchange="handleProxy" data-eventid="{{'g1W-1'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'ySG-7'],$root}}" is="725b412a"></template>
+        <text class="_text data-v-3bf36d38">{{numberValue3}}</text>
+      </view>
+    </view>
+    <view style="height:80rpx;" class="_view data-v-3bf36d38"></view>
+  </view>
+</template>

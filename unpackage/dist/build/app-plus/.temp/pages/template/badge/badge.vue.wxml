@@ -1,0 +1,26 @@
+<import src="/components/uni-badge.vue.wxml" />
+<template name="621246e2">
+  <view class="_view data-v-87f91cc0 page">
+    <page-head title="{{title}}" class="_page-head data-v-87f91cc0"></page-head>
+    <view class="_view data-v-87f91cc0 uni-padding-wrap uni-common-mt">
+      <view class="_view data-v-87f91cc0 uni-title"> 有底色 </view>
+      <view style="background:#FFF; padding:20rpx;" class="_view data-v-87f91cc0">
+        <template text="1" data="{{...$root['0'], ...$root[$kk+'JHE-1'],$root}}" is="7b2de62f"></template>
+        <template text="12" type="primary" data="{{...$root['0'], ...$root[$kk+'v3s-2'],$root}}" is="7b2de62f"></template>
+        <template text="123" type="success" data="{{...$root['0'], ...$root[$kk+'c5k-3'],$root}}" is="7b2de62f"></template>
+        <template text="3" type="warning" data="{{...$root['0'], ...$root[$kk+'9dD-4'],$root}}" is="7b2de62f"></template>
+        <template text="45" type="danger" data="{{...$root['0'], ...$root[$kk+'QyX-5'],$root}}" is="7b2de62f"></template>
+        <template text="456" type="purple" data="{{...$root['0'], ...$root[$kk+'Uez-6'],$root}}" is="7b2de62f"></template>
+      </view>
+      <view class="_view data-v-87f91cc0 uni-title uni-common-mt"> 无底色 </view>
+      <view style="background:#FFF; padding:20rpx;" class="_view data-v-87f91cc0">
+        <template text="1" data="{{...$root['0'], ...$root[$kk+'liy-7'],$root}}" is="7b2de62f"></template>
+        <template text="12" type="primary" data="{{...$root['0'], ...$root[$kk+'BXp-8'],$root}}" is="7b2de62f"></template>
+        <template text="123" type="success" data="{{...$root['0'], ...$root[$kk+'Jn6-9'],$root}}" is="7b2de62f"></template>
+        <template text="3" type="warning" data="{{...$root['0'], ...$root[$kk+'Vtd-10'],$root}}" is="7b2de62f"></template>
+        <template text="45" type="danger" data="{{...$root['0'], ...$root[$kk+'6wf-11'],$root}}" is="7b2de62f"></template>
+        <template text="456" type="purple" data="{{...$root['0'], ...$root[$kk+'TnW-12'],$root}}" is="7b2de62f"></template>
+      </view>
+    </view>
+  </view>
+</template>

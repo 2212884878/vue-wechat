@@ -1,0 +1,9 @@
+<import src="/components/ly-markdown/ly-markdown.vue.wxml" />
+<template name="4785ace2">
+  <view class="_view data-v-f7cf27c0 container">
+    <view class="_view data-v-f7cf27c0 page-body">
+      <template data-eventid="{{'UYi-0'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'Ydy-0'],$root}}" is="59dc37eb"></template>
+    </view>
+    <page-foot name="{{name}}" class="_page-foot data-v-f7cf27c0"></page-foot>
+  </view>
+</template>

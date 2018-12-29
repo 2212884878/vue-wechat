@@ -1,0 +1,18 @@
+<template name="54a0e681">
+  <view class="_view data-v-4780e0d8 page">
+    <page-head title="{{title}}" class="_page-head data-v-4780e0d8"></page-head>
+    <view class="_view data-v-4780e0d8 uni-product-list">
+      <view class="_view data-v-4780e0d8 uni-product" wx:key="index" key="{{index}}" wx:for="{{productList}}" wx:for-index="index" wx:for-item="product">
+        <view class="_view data-v-4780e0d8 image-view">
+          <image wx:if="{{renderImage}}" class="_image data-v-4780e0d8 uni-product-image" src="{{product.image}}"></image>
+        </view>
+        <view class="_view data-v-4780e0d8 uni-product-title">{{product.title}}</view>
+        <view class="_view data-v-4780e0d8 uni-product-price">
+          <text class="_text data-v-4780e0d8 uni-product-price-favour">￥{{product.originalPrice}}</text>
+          <text class="_text data-v-4780e0d8 uni-product-price-original">￥{{product.favourPrice}}</text>
+          <text class="_text data-v-4780e0d8 uni-product-tip">{{product.tip}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

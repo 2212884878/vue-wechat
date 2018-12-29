@@ -1,0 +1,25 @@
+<template name="5697c48d">
+  <view class="_view data-v-aa9e16c4 main">
+    <view class="_view data-v-aa9e16c4 content">
+      <view class="_view data-v-aa9e16c4 p">
+        <label for class="_label data-v-aa9e16c4 leb">姓名：</label>
+        <input type="text" value="" class="_input data-v-aa9e16c4 inp" />
+      </view>
+      <view class="_view data-v-aa9e16c4 p">
+        <label for class="_label data-v-aa9e16c4 leb">手机号：</label>
+        <input type="text" value="" class="_input data-v-aa9e16c4 inp" />
+      </view>
+      <view class="_view data-v-aa9e16c4 p">
+        <label for class="_label data-v-aa9e16c4 leb">身份证号：</label>
+        <input type="text" value="" class="_input data-v-aa9e16c4 inp" />
+      </view>
+      <view class="_view data-v-aa9e16c4 p p1">
+        <label for class="_label data-v-aa9e16c4 leb">邮箱：</label>
+        <input type="text" value="" class="_input data-v-aa9e16c4 inp" />
+      </view>
+    </view>
+    <view class="_view data-v-aa9e16c4 three">
+      <button class="_button data-v-aa9e16c4 btn">退出登录</button>
+    </view>
+  </view>
+</template>

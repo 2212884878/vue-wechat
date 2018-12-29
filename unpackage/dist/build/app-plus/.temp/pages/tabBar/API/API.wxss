@@ -1,0 +1,2 @@
+@import "../../../common/vendor.wxss";
+page{height:auto;min-height:100%}.uni-card{box-shadow:none}.uni-list:after,.uni-list:before{height:0}

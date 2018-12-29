@@ -1,0 +1,43 @@
+<template name="217692c6">
+  <view class="_view data-v-7a7fd40f">
+    <page-head title="{{title}}" class="_page-head data-v-7a7fd40f"></page-head>
+    <view class="_view data-v-7a7fd40f uni-padding-wrap uni-common-mt">
+      <form bindsubmit="handleProxy" bindreset="handleProxy" data-eventid="{{'rG5-0'}}" data-comkey="{{$k}}" class="_form data-v-7a7fd40f">
+        <view class="_view data-v-7a7fd40f uni-form-item uni-column">
+          <view class="_view data-v-7a7fd40f title">switch</view>
+          <switch name="switch" class="_switch data-v-7a7fd40f" />
+        </view>
+        <view class="_view data-v-7a7fd40f uni-form-item uni-column">
+          <view class="_view data-v-7a7fd40f title">radio</view>
+          <radio-group name="radio" class="_radio-group data-v-7a7fd40f">
+            <label class="_label data-v-7a7fd40f">
+              <radio value="radio1" class="_radio data-v-7a7fd40f" />选项一</label>
+            <label class="_label data-v-7a7fd40f">
+              <radio value="radio2" class="_radio data-v-7a7fd40f" />选项二</label>
+          </radio-group>
+        </view>
+        <view class="_view data-v-7a7fd40f uni-form-item uni-column">
+          <view class="_view data-v-7a7fd40f title">checkbox</view>
+          <checkbox-group name="checkbox" class="_checkbox-group data-v-7a7fd40f">
+            <label class="_label data-v-7a7fd40f">
+              <checkbox value="checkbox1" class="_checkbox data-v-7a7fd40f"></checkbox>选项一</label>
+            <label class="_label data-v-7a7fd40f">
+              <checkbox value="checkbox2" class="_checkbox data-v-7a7fd40f"></checkbox>选项二</label>
+          </checkbox-group>
+        </view>
+        <view class="_view data-v-7a7fd40f uni-form-item uni-column">
+          <view class="_view data-v-7a7fd40f title">slider</view>
+          <slider value="50" name="slider" show-value class="_slider data-v-7a7fd40f" />
+        </view>
+        <view class="_view data-v-7a7fd40f uni-form-item uni-column">
+          <view class="_view data-v-7a7fd40f title">input</view>
+          <input class="_input data-v-7a7fd40f uni-input" name="input" placeholder="这是一个输入框" />
+        </view>
+        <view class="_view data-v-7a7fd40f uni-btn-v">
+          <button formType="submit" class="_button data-v-7a7fd40f">Submit</button>
+          <button type="default" formType="reset" class="_button data-v-7a7fd40f">Reset</button>
+        </view>
+      </form>
+    </view>
+  </view>
+</template>

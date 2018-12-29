@@ -1,0 +1,2 @@
+@import "../../../common/vendor.wxss";
+view{display:-webkit-box;display:-webkit-flex;display:flex;width:100%;-webkit-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:center;-webkit-justify-content:center;justify-content:center}.title{margin:80rpx 0 20rpx}

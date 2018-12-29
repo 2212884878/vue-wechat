@@ -1,0 +1,13 @@
+<template name="a2e3c78c">
+  <view class="_view data-v-6beb6dd8">
+    <view class="_view data-v-6beb6dd8 er1">
+      <view class="_view data-v-6beb6dd8 er2 er5">创建失败</view>
+      <view class="_view data-v-6beb6dd8 er3 er5">失败原因：网络繁忙订单提交失败</view>
+      <view class="_view data-v-6beb6dd8 er4 er5">
+        <navigator url="../../../template/order-list/order-list" class="_navigator data-v-6beb6dd8">
+          <button class="_button data-v-6beb6dd8">查看订单</button>
+        </navigator>
+      </view>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,9 @@
+<template name="41fa6086">
+  <view class="_view data-v-6547fa2e uni-countdown">
+    <view class="_view data-v-6547fa2e uni-countdown-numbers" style=" {{(  'border-color:' +  borderColor +  ';' +  'color:' +  fontColor +  ';' +  'background:' +  bgrColor +  ';')}}">{{h}}</view>
+    <view class="_view data-v-6547fa2e uni-countdown-splitor" style=" {{('color:' + splitorColor + ';')}}">:</view>
+    <view class="_view data-v-6547fa2e uni-countdown-numbers" style=" {{(  'border-color:' +  borderColor +  ';' +  'color:' +  fontColor +  ';' +  'background:' +  bgrColor +  ';')}}">{{i}}</view>
+    <view class="_view data-v-6547fa2e uni-countdown-splitor" style=" {{('color:' + splitorColor + ';')}}">:</view>
+    <view class="_view data-v-6547fa2e uni-countdown-numbers" style=" {{(  'border-color:' +  borderColor +  ';' +  'color:' +  fontColor +  ';' +  'background:' +  bgrColor +  ';')}}">{{s}}</view>
+  </view>
+</template>

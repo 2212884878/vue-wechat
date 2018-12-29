@@ -1,0 +1,19 @@
+<template name="155bd926">
+  <view class="_view data-v-1ab606af">
+    <page-head title="{{title}}" class="_page-head data-v-1ab606af"></page-head>
+    <view class="_view data-v-1ab606af uni-padding-wrap uni-common-mt">
+      <view class="_view data-v-1ab606af uni-title">设置step</view>
+      <view class="_view data-v-1ab606af">
+        <slider value="60" bindchange="handleProxy" step="5" data-eventid="{{'uQU-0'}}" data-comkey="{{$k}}" class="_slider data-v-1ab606af" />
+      </view>
+      <view class="_view data-v-1ab606af uni-title">显示当前value</view>
+      <view class="_view data-v-1ab606af">
+        <slider value="50" bindchange="handleProxy" show-value data-eventid="{{'eCe-1'}}" data-comkey="{{$k}}" class="_slider data-v-1ab606af" />
+      </view>
+      <view class="_view data-v-1ab606af uni-title">设置最小/最大值</view>
+      <view class="_view data-v-1ab606af">
+        <slider value="100" bindchange="handleProxy" min="50" max="200" show-value data-eventid="{{'Ehq-2'}}" data-comkey="{{$k}}" class="_slider data-v-1ab606af" />
+      </view>
+    </view>
+  </view>
+</template>

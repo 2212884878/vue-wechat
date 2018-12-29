@@ -1,0 +1,9 @@
+<template name="4680115a">
+  <navigator url="/pages/template/activity/activity" class="_navigator data-v-8c8b8bfc">
+    <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" class="_swiper data-v-8c8b8bfc">
+      <swiper-item wx:key="item" key="{{item}}" wx:for="{{itemList}}" wx:for-index="index" wx:for-item="item" class="_swiper-item data-v-8c8b8bfc">
+        <image src="{{item}}" mode class="_image data-v-8c8b8bfc"></image>
+      </swiper-item>
+    </swiper>
+  </navigator>
+</template>

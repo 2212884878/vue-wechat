@@ -1,0 +1,39 @@
+<template name="c9d45e3e">
+  <view class="_view data-v-66f71e90 main">
+    <image src="../../../static/banner@2x.png" mode class="_image data-v-66f71e90 img"></image>
+    <view class="_view data-v-66f71e90 box">
+      <view class="_view data-v-66f71e90 title">魔幻万圣节</view>
+      <view class="_view data-v-66f71e90 time">发布时间：2018-11-12</view>
+      <view class="_view data-v-66f71e90 content">又是一年十月来临，潮人玩水家们期盼了一年之久的Halloween再次奇幻来袭！在这个由热转凉的玩水季里，长隆水上乐园进入“终极玩水模式”。据悉，10月11日至11月4日期间，园区将推出“温水热浪万圣电音秀”！广州城内的潮男潮女们，将得到在水上乐园白天玩水、晚上玩鬼的机会，体验“玩水”+“万圣”+“电音”的奇幻REMIX！特别需要提出的是，长隆水上乐园具有先进全面的温水系统，全园滑道设备提供30-33℃温水、热水按摩池提供38-40℃热水。</view>
+    </view>
+    <button class="_button data-v-66f71e90 btn {{[isActive ? 'btnActive' : '']}}" bindtap="handleProxy" data-eventid="{{'Ifg-0'}}" data-comkey="{{$k}}">{{btnTitle}}</button>
+    <view class="_view data-v-66f71e90 meng" wx:if="{{step === 1}}">
+      <view class="_view data-v-66f71e90 m-box">
+        <view class="_view data-v-66f71e90 title1">活动报名</view>
+        <form class="_form data-v-66f71e90">
+          <view class="_view data-v-66f71e90 p">
+            <label for class="_label data-v-66f71e90 lab">姓名：</label>
+            <input type="text" class="_input data-v-66f71e90 inp" />
+          </view>
+          <view class="_view data-v-66f71e90 p">
+            <label for class="_label data-v-66f71e90 lab">联系电话：</label>
+            <input type="text" value="" class="_input data-v-66f71e90 inp" />
+          </view>
+          <view class="_view data-v-66f71e90 p">
+            <label for class="_label data-v-66f71e90 lab">活动人数：</label>
+            <input type="text" value="" class="_input data-v-66f71e90 inp" />
+          </view>
+        </form>
+        <view class="_view data-v-66f71e90 btn-box">
+          <button class="_button data-v-66f71e90 btn2" bindtap="handleProxy" data-eventid="{{'pXZ-1'}}" data-comkey="{{$k}}">立即报名</button>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-66f71e90 meng" wx:elif="{{step === 2}}">
+      <view class="_view data-v-66f71e90 m-box1">
+        <image src="../../../static/baoming.png" mode class="_image data-v-66f71e90 tijiao"></image>
+        <view class="_view data-v-66f71e90 box1-title">报名审核中</view>
+      </view>
+    </view>
+  </view>
+</template>

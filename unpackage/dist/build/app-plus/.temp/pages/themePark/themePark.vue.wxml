@@ -1,0 +1,6 @@
+<import src="/components/imageList.vue.wxml" />
+<template name="0ebc6cda">
+  <view class="_view data-v-61b28e09">
+    <template data="{{...$root['0'], ...$root[$kk+'BlT-0'],$root}}" is="4bf74cc2"></template>
+  </view>
+</template>

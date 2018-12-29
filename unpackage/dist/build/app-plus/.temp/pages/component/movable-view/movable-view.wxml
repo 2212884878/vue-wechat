@@ -1,0 +1,1 @@
+<import src="/pages/component/movable-view/movable-view.vue.wxml" /><template is="594222c6" data="{{ ...$root['0'], $root }}"/>

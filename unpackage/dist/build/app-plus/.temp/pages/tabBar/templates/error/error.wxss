@@ -1,0 +1,2 @@
+@import "../../../../common/vendor.wxss";
+.er1{-webkit-box-orient:vertical;-webkit-box-direction:normal;-webkit-flex-direction:column;flex-direction:column;padding-top:152rpx}.er1,.er1>.er5{display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;justify-content:center}.er1>.er2{color:#353535;font-size:72rpx;font-weight:700;margin-bottom:62rpx}.er1>.er3{color:#999;font-size:26rpx;margin-bottom:286rpx}.er1>.er4 ._button{width:600rpx;height:90rpx;background-color:#0b74ea;color:#fff;font-size:36rpx}

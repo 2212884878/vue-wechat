@@ -1,0 +1,2 @@
+@import "../../../common/vendor.wxss";
+page{height:auto;min-height:100%}.header{text-align:center;font-size:36rpx}.uni-card{box-shadow:none}.uni-list:after,.uni-list:before{height:0}.ban{display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;justify-content:space-between;-webkit-flex-wrap:wrap;flex-wrap:wrap;margin:0 30rpx;margin-top:82rpx}image{width:335rpx;height:170rpx;padding-right:10rpx;padding-top:15rpx}

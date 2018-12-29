@@ -1,0 +1,19 @@
+<template name="2bfd13ec">
+  <view class="_view data-v-455b2e0d content">
+    <page-head title="{{title}}" class="_page-head data-v-455b2e0d"></page-head>
+    <view class="_view data-v-455b2e0d uni-padding-wrap">
+      <view class="_view data-v-455b2e0d uni-title uni-common-mt"> 数组类型
+        <text class="_text data-v-455b2e0d">\nnodes属性为Array</text>
+      </view>
+      <view class="_view data-v-455b2e0d uni-common-mt" style="background:#FFF; padding:20rpx;">
+        <rich-text nodes="{{nodes}}" class="_rich-text data-v-455b2e0d"></rich-text>
+      </view>
+      <view class="_view data-v-455b2e0d uni-title uni-common-mt"> 字符串类型
+        <text class="_text data-v-455b2e0d">\nnodes属性为String</text>
+      </view>
+      <view class="_view data-v-455b2e0d uni-common-mt" style="background:#FFF; padding:20rpx;">
+        <rich-text nodes="{{strings}}" class="_rich-text data-v-455b2e0d"></rich-text>
+      </view>
+    </view>
+  </view>
+</template>

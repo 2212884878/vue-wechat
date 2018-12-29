@@ -1,0 +1,1 @@
+<import src="/pages/tabBar/templates/payorder/payorder.vue.wxml" /><template is="7acea5a2" data="{{ ...$root['0'], $root }}"/>

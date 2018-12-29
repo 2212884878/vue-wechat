@@ -1,0 +1,3 @@
+require("../../../common/manifest.js");
+require("../../../common/vendor.js");
+global.webpackJsonp([74],{57:function(e,t,n){"use strict";var u=r(n(1)),a=r(n(58));function r(e){return e&&e.__esModule?e:{default:e}}Page((0,u.default)(a.default))},58:function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0});var u=n(60),a=n.n(u),r=n(61);var i=function(e){n(59)},c=n(0)(a.a,r.a,i,null,null);t.default=c.exports},59:function(e,t){},60:function(e,t,n){"use strict";Object.defineProperty(t,"__esModule",{value:!0}),t.default={data:function(){return{}}}},61:function(e,t,n){"use strict";var u={render:function(){var e=this.$createElement;return(this._self._c||e)("view",{staticClass:"uni-padding-wrap uni-common-pb"})},staticRenderFns:[]};t.a=u}},[57]);

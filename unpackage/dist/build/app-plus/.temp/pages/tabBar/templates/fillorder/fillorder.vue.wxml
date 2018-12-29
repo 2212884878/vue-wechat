@@ -1,0 +1,63 @@
+<template name="6e1928c0">
+  <view class="_view data-v-fd0b6a44">
+    <view class="_view data-v-fd0b6a44 a1">
+      <view class="_view data-v-fd0b6a44 a2">
+        <view class="_view data-v-fd0b6a44 a23">成人全日票</view>
+        <view class="_view data-v-fd0b6a44 a24">￥160×2</view>
+        <view class="_view data-v-fd0b6a44 a22">游玩时间：2018.12.11 08:30-16:30</view>
+      </view>
+      <view class="_view data-v-fd0b6a44 a3">
+        <label class="_span data-v-fd0b6a44">小计金额：</label>
+        <label class="_span data-v-fd0b6a44 a33">￥320</label>
+      </view>
+    </view>
+    <view class="_view data-v-fd0b6a44 a4">
+      <view class="_view data-v-fd0b6a44 a44">优惠券</view>
+      <view class="_view data-v-fd0b6a44 a45">暂无优惠</view>
+    </view>
+    <view class="_view data-v-fd0b6a44 a5">
+      <view class="_view data-v-fd0b6a44 a55">
+        <label class="_span data-v-fd0b6a44 a551">游客信息：</label>
+        <label class="_span data-v-fd0b6a44 a552">您需要填写
+          <label class="_span data-v-fd0b6a44">1</label>位游客信息</label>
+      </view>
+      <view class="_view data-v-fd0b6a44 a56">
+        <view class="_view data-v-fd0b6a44 a57">
+          <label class="_label data-v-fd0b6a44 p">游客姓名</label>
+          <input placeholder focus class="_input data-v-fd0b6a44 p1" />
+        </view>
+        <view class="_view data-v-fd0b6a44 a57">
+          <label class="_label data-v-fd0b6a44 p">手机号：</label>
+          <input maxlength="10" placeholder class="_input data-v-fd0b6a44 p1" />
+        </view>
+        <view class="_view data-v-fd0b6a44 a58">
+          <label class="_span data-v-fd0b6a44">*此手机号用于接收入园短信</label>
+        </view>
+        <view class="_view data-v-fd0b6a44 a57">
+          <label class="_label data-v-fd0b6a44 p">身份证：</label>
+          <input placeholder class="_input data-v-fd0b6a44 p1" />
+        </view>
+        <view class="_view data-v-fd0b6a44 a59">
+          <checkbox-group class="_checkbox-group data-v-fd0b6a44">
+            <label class="_label data-v-fd0b6a44">
+              <checkbox value="cb" checked="true" class="_checkbox data-v-fd0b6a44"></checkbox>
+              <label class="_span data-v-fd0b6a44 a60">同意：购买协议</label>
+            </label>
+          </checkbox-group>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-fd0b6a44 a6">
+      <view class="_view data-v-fd0b6a44 a61">
+        <label class="_span data-v-fd0b6a44 a62">共计:</label>
+        <label class="_span data-v-fd0b6a44 a63">￥142</label>
+        <label class="_span data-v-fd0b6a44 a64">￥188</label>
+      </view>
+      <navigator url="../payorder/payorder" class="_navigator data-v-fd0b6a44">
+        <view class="_view data-v-fd0b6a44 a65">
+          <button class="_button data-v-fd0b6a44">提交订单</button>
+        </view>
+      </navigator>
+    </view>
+  </view>
+</template>

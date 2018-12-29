@@ -1,0 +1,133 @@
+<template name="50415301">
+  <view class="_view data-v-43214d58 main">
+    <view class="_view data-v-43214d58 nav">
+      <view class="_view data-v-43214d58 nav-left">待支付</view>
+      <view class="_view data-v-43214d58 nav-right">
+        <view class="_view data-v-43214d58">￥680.00</view>
+        <image src="../../../static/rr.png" class="_image data-v-43214d58 img1" bindtap="handleProxy" hidden="{{!(!mengShow)}}" data-eventid="{{'eiG-0'}}" data-comkey="{{$k}}"></image>
+        <image src="../../../static/rr.png" class="_image data-v-43214d58 img1" bindtap="handleProxy" hidden="{{!(mengShow)}}" data-eventid="{{'8Ya-1'}}" data-comkey="{{$k}}"></image>
+      </view>
+      <view class="_view data-v-43214d58 pay-detail" hidden="{{!(mengShow)}}">
+        <view class="_view data-v-43214d58 m">
+          <view class="_view data-v-43214d58 m-one">价格明细</view>
+          <view class="_view data-v-43214d58 m-two">
+            <view class="_view data-v-43214d58 meng-top">
+              <view class="_view data-v-43214d58">成人全日票</view>
+              <view class="_view data-v-43214d58">￥200×2</view>
+            </view>
+            <view class="_view data-v-43214d58 meng-bottom">
+              <view class="_view data-v-43214d58">儿童全日票</view>
+              <view class="_view data-v-43214d58">儿童全日票</view>
+            </view>
+          </view>
+          <view class="_view data-v-43214d58 m-two">
+            <view class="_view data-v-43214d58 meng-top">
+              <view class="_view data-v-43214d58">订单总金额</view>
+              <view class="_view data-v-43214d58">￥680.00</view>
+            </view>
+            <view class="_view data-v-43214d58 meng-bottom">
+              <view class="_view data-v-43214d58">优惠总金额</view>
+              <view class="_view data-v-43214d58">
+                <label class="_span data-v-43214d58 m-span">-￥680.00</label>
+              </view>
+            </view>
+          </view>
+          <view class="_view data-v-43214d58 m-three">
+            <view class="_view data-v-43214d58 totle">支付总金额：
+              <label class="_span data-v-43214d58 m-span1">￥680.00</label>
+            </view>
+            <view class="_view data-v-43214d58 totle">（退款总金额：
+              <label class="_span data-v-43214d58 m-span2">￥680.00</label>)</view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-43214d58 one">
+      <view class="_view data-v-43214d58">订单号码：12535964116242</view>
+      <view class="_view data-v-43214d58">创建时间：2018.12.16 16:24</view>
+      <view class="_view data-v-43214d58">预订方式：官网预订</view>
+    </view>
+    <view class="_view data-v-43214d58 list">
+      <view class="_view data-v-43214d58 two">
+        <view class="_view data-v-43214d58 two-top">
+          <view class="_view data-v-43214d58">订单编号：4002856</view>
+          <view class="_view data-v-43214d58">{{typePay}}</view>
+        </view>
+        <view class="_view data-v-43214d58 two-bottom">
+          <view class="_view data-v-43214d58 bottom-left">
+            <view class="_view data-v-43214d58 t-name">成人全日票</view>
+            <view wx:if="{{type == 0 || type == 1 || type == 3}}" class="_view data-v-43214d58">单价：￥160</view>
+            <view wx:else class="_view data-v-43214d58">￥160x2</view>
+            <view class="_view data-v-43214d58">游玩时间：2018.12.11 08:30-16:30</view>
+            <view class="_view data-v-43214d58 hexiao" wx:if="{{type == 2 || type == 3}}">
+              <label class="_span data-v-43214d58">核销码：</label>
+              <label class="_span data-v-43214d58 t-span">www.hexiaomaasd.215254snhuyiersc///asvliynddh</label>
+            </view>
+          </view>
+          <view class="_view data-v-43214d58 bottom-right">
+            <view class="_view data-v-43214d58">数量：×2</view>
+            <view hidden="{{!(false)}}" class="_view data-v-43214d58">小计金额：
+              <label class="_span data-v-43214d58 b-span">￥320</label>
+            </view>
+            <button class="_button data-v-43214d58 btn3" wx:if="{{type == 1 || type == 2}}">申请退款</button>
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-43214d58 three" wx:if="{{type == 3 || type == 1 || type == 2}}">
+        <view class="_view data-v-43214d58 you-info">
+          <view class="_view data-v-43214d58 title">游玩人信息</view>
+          <view class="_view data-v-43214d58 info-list">
+            <view class="_view data-v-43214d58 info">
+              <view class="_view data-v-43214d58 info-one">游客姓名：</view>
+              <view class="_view data-v-43214d58 info-two">李莉莉</view>
+            </view>
+            <view class="_view data-v-43214d58 info">
+              <view class="_view data-v-43214d58 info-one">手机号：</view>
+              <view class="_view data-v-43214d58 info-two">15927465454</view>
+            </view>
+            <view class="_view data-v-43214d58 info">
+              <view class="_view data-v-43214d58 info-one">身份证：</view>
+              <view class="_view data-v-43214d58 info-two">4130261141879422486</view>
+            </view>
+          </view>
+        </view>
+        <view class="_view data-v-43214d58 you-info">
+          <view class="_view data-v-43214d58 title">收件信息</view>
+          <view class="_view data-v-43214d58 info-list">
+            <view class="_view data-v-43214d58 info">
+              <view class="_view data-v-43214d58 info-one">游客姓名：</view>
+              <view class="_view data-v-43214d58 info-two">李莉莉</view>
+            </view>
+            <view class="_view data-v-43214d58 info">
+              <view class="_view data-v-43214d58 info-one">手机号：</view>
+              <view class="_view data-v-43214d58 info-two">15927465454</view>
+            </view>
+            <view class="_view data-v-43214d58 info">
+              <view class="_view data-v-43214d58 info-one">地址：</view>
+              <view class="_view data-v-43214d58 info-two">湖北省武汉市江岸区后湖大道</view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-43214d58 four" wx:if="{{type == 1 || type == 2}}">
+        <view class="_view data-v-43214d58">支付时间：2018.12.10 16:57:48</view>
+        <view class="_view data-v-43214d58">支付方式：微信支付</view>
+        <view class="_view data-v-43214d58">支付流水：www.hexiaomaasd.215254snhu</view>
+      </view>
+      <view class="_view data-v-43214d58 five" wx:if="{{type ==3}}">
+        <view class="_view data-v-43214d58 f-title">退订信息</view>
+        <view class="_view data-v-43214d58 five-content">
+          <view class="_view data-v-43214d58">退订产品：成人全日票</view>
+          <view class="_view data-v-43214d58">申请时间：2018.12.10 16:57:48</view>
+          <view class="_view data-v-43214d58">审核时间：2018.12.10 16:57:48</view>
+          <view class="_view data-v-43214d58">退订时间：2018.12.10 16:57:48</view>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-43214d58 bom" wx:if="{{type == 0 || type == 1 || type == 2}}">
+      <button class="_button data-v-43214d58 btn1" wx:if="{{type == 0}}">取消订单</button>
+      <button class="_button data-v-43214d58 btn1" wx:if="{{type == 1}}">获取核销码</button>
+      <button class="_button data-v-43214d58 btn2" wx:if="{{type == 0 || type == 1 || type == 2}}">全单退款</button>
+    </view>
+  </view>
+</template>

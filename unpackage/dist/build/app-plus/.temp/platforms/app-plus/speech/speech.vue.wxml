@@ -1,0 +1,14 @@
+<template name="55de51f1">
+  <view class="_view data-v-0cac0af0">
+    <page-head title="{{title}}" class="_page-head data-v-0cac0af0"></page-head>
+    <view class="_view data-v-0cac0af0 uni-padding-wrap uni-common-mt">
+      <view class="_view data-v-0cac0af0 uni-textarea">
+        <textarea value="{{value}}" placeholder="语音识别内容展示区域" disabled class="_textarea data-v-0cac0af0" />
+      </view>
+      <view class="_view data-v-0cac0af0 uni-common-mt uni-btn-v">
+        <button type="primary" bindtap="handleProxy" data-eventid="{{'T6m-0'}}" data-comkey="{{$k}}" class="_button data-v-0cac0af0">开始语音识别</button>
+        <button type="primary" bindtap="handleProxy" data-eventid="{{'a1y-1'}}" data-comkey="{{$k}}" class="_button data-v-0cac0af0">开始语音识别（英语）</button>
+      </view>
+    </view>
+  </view>
+</template>

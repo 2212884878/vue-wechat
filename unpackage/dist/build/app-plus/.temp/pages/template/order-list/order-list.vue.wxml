@@ -1,0 +1,133 @@
+<template name="78cddb3e">
+  <view class="_view data-v-867f7110 main">
+    <view class="_view data-v-867f7110 one">
+      <view class="_view data-v-867f7110 li {{[index === 0 ? 'li1' : '']}}" bindtap="handleProxy" data-eventid="{{'hqE-0'}}" data-comkey="{{$k}}">全部</view>
+      <view class="_view data-v-867f7110 li {{[index === 1 ? 'li1' : '']}}" bindtap="handleProxy" data-eventid="{{'B5K-1'}}" data-comkey="{{$k}}">待支付</view>
+      <view class="_view data-v-867f7110 li {{[index === 2 ? 'li1' : '']}}" bindtap="handleProxy" data-eventid="{{'kjX-2'}}" data-comkey="{{$k}}">处理中</view>
+      <view class="_view data-v-867f7110 li {{[index === 3 ? 'li1' : '']}}" bindtap="handleProxy" data-eventid="{{'Ne0-3'}}" data-comkey="{{$k}}">下单成功</view>
+      <view class="_view data-v-867f7110 li {{[index === 4 ? 'li1' : '']}}" bindtap="handleProxy" data-eventid="{{'pQe-4'}}" data-comkey="{{$k}}">退款</view>
+    </view>
+    <view class="_view data-v-867f7110 content">
+      <view class="_view data-v-867f7110 list" bindtap="handleProxy" data-eventid="{{'xZ6-5'}}" data-comkey="{{$k}}">
+        <view class="_view data-v-867f7110 top">
+          <view class="_view data-v-867f7110 top-left">
+            <view class="_view data-v-867f7110">
+              <view class="_view data-v-867f7110 left-one l-o">订单编号：{{orderNo}}</view>
+              <view class="_view data-v-867f7110 left-one">创建时间：{{time}}</view>
+            </view>
+            <view class="_view data-v-867f7110 left-two">
+              <view class="_view data-v-867f7110">订单金额：￥336</view>
+              <view class="_view data-v-867f7110">优惠金额：￥0.00</view>
+            </view>
+          </view>
+          <view class="_view data-v-867f7110 top-right">
+            <view class="_view data-v-867f7110 payType">待支付</view>
+            <image src="../../../static/gd@2x.png" class="_image data-v-867f7110 img1"></image>
+          </view>
+        </view>
+        <view class="_view data-v-867f7110 bottom">
+          <view class="_view data-v-867f7110">实付金额：
+            <label class="_span data-v-867f7110 span">￥336.00</label>
+          </view>
+          <view class="_view data-v-867f7110 bottom-btn">
+            <button class="_button data-v-867f7110 btn1" hidden="{{!(typeList[0].type === 0)}}">取消订单</button>
+            <button class="_button data-v-867f7110 btn2" hidden="{{!(typeList[0].type === 0)}}">去支付</button>
+            <button class="_button data-v-867f7110 btn1" hidden="{{!(typeList[0].type === 1)}}">申请退款</button>
+            <button class="_button data-v-867f7110 btn2" hidden="{{!(typeList[0].type === 1)}}">获取核销码</button>
+            <button class="_button data-v-867f7110 btn2" hidden="{{!(typeList[0].type === 2)}}">申请退款</button>
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-867f7110 list" bindtap="handleProxy" data-eventid="{{'p7n-6'}}" data-comkey="{{$k}}">
+        <view class="_view data-v-867f7110 top">
+          <view class="_view data-v-867f7110 top-left">
+            <view class="_view data-v-867f7110">
+              <view class="_view data-v-867f7110 left-one l-o">订单编号：{{orderNo}}</view>
+              <view class="_view data-v-867f7110 left-one">创建时间：{{time}}</view>
+            </view>
+            <view class="_view data-v-867f7110 left-two">
+              <view class="_view data-v-867f7110">订单金额：￥336</view>
+              <view class="_view data-v-867f7110">优惠金额：￥0.00</view>
+            </view>
+          </view>
+          <view class="_view data-v-867f7110 top-right">
+            <view class="_view data-v-867f7110 payType">处理中</view>
+            <image src="../../../static/gd@2x.png" class="_image data-v-867f7110 img1"></image>
+          </view>
+        </view>
+        <view class="_view data-v-867f7110 bottom">
+          <view class="_view data-v-867f7110">实付金额：
+            <label class="_span data-v-867f7110 span">￥336.00</label>
+          </view>
+          <view class="_view data-v-867f7110 bottom-btn">
+            <button class="_button data-v-867f7110 btn1" hidden="{{!(typeList[1].type === 0)}}">取消订单</button>
+            <button class="_button data-v-867f7110 btn2" hidden="{{!(typeList[1].type === 0)}}">去支付</button>
+            <button class="_button data-v-867f7110 btn1" hidden="{{!(typeList[1].type === 1)}}">申请退款</button>
+            <button class="_button data-v-867f7110 btn2" hidden="{{!(typeList[1].type === 1)}}">获取核销码</button>
+            <button class="_button data-v-867f7110 btn2" hidden="{{!(typeList[1].type === 2)}}">申请退款</button>
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-867f7110 list" bindtap="handleProxy" data-eventid="{{'IDp-7'}}" data-comkey="{{$k}}">
+        <view class="_view data-v-867f7110 top">
+          <view class="_view data-v-867f7110 top-left">
+            <view class="_view data-v-867f7110">
+              <view class="_view data-v-867f7110 left-one l-o">订单编号：{{orderNo}}</view>
+              <view class="_view data-v-867f7110 left-one">创建时间：{{time}}</view>
+            </view>
+            <view class="_view data-v-867f7110 left-two">
+              <view class="_view data-v-867f7110">订单金额：￥336</view>
+              <view class="_view data-v-867f7110">优惠金额：￥0.00</view>
+            </view>
+          </view>
+          <view class="_view data-v-867f7110 top-right">
+            <view class="_view data-v-867f7110 payType">下单成功</view>
+            <image src="../../../static/gd@2x.png" class="_image data-v-867f7110 img1"></image>
+          </view>
+        </view>
+        <view class="_view data-v-867f7110 bottom">
+          <view class="_view data-v-867f7110">实付金额：
+            <label class="_span data-v-867f7110 span">￥336.00</label>
+          </view>
+          <view class="_view data-v-867f7110 bottom-btn">
+            <button class="_button data-v-867f7110 btn1" hidden="{{!(typeList[2].type === 0)}}">取消订单</button>
+            <button class="_button data-v-867f7110 btn2" hidden="{{!(typeList[2].type === 0)}}">去支付</button>
+            <button class="_button data-v-867f7110 btn1" hidden="{{!(typeList[2].type === 1)}}">申请退款</button>
+            <button class="_button data-v-867f7110 btn2" hidden="{{!(typeList[2].type === 1)}}">获取核销码</button>
+            <button class="_button data-v-867f7110 btn2" hidden="{{!(typeList[2].type === 2)}}">申请退款</button>
+          </view>
+        </view>
+      </view>
+      <view class="_view data-v-867f7110 list" bindtap="handleProxy" data-eventid="{{'4GQ-8'}}" data-comkey="{{$k}}">
+        <view class="_view data-v-867f7110 top">
+          <view class="_view data-v-867f7110 top-left">
+            <view class="_view data-v-867f7110">
+              <view class="_view data-v-867f7110 left-one l-o">订单编号：{{orderNo}}</view>
+              <view class="_view data-v-867f7110 left-one">创建时间：{{time}}</view>
+            </view>
+            <view class="_view data-v-867f7110 left-two">
+              <view class="_view data-v-867f7110">订单金额：￥336</view>
+              <view class="_view data-v-867f7110">优惠金额：￥0.00</view>
+            </view>
+          </view>
+          <view class="_view data-v-867f7110 top-right">
+            <view class="_view data-v-867f7110 payType">退款</view>
+            <image src="../../../static/gd@2x.png" class="_image data-v-867f7110 img1"></image>
+          </view>
+        </view>
+        <view class="_view data-v-867f7110 bottom">
+          <view class="_view data-v-867f7110">实付金额：
+            <label class="_span data-v-867f7110 span">￥336.00</label>
+          </view>
+          <view class="_view data-v-867f7110 bottom-btn">
+            <button class="_button data-v-867f7110 btn1" hidden="{{!(typeList[3].type === 0)}}">取消订单</button>
+            <button class="_button data-v-867f7110 btn2" hidden="{{!(typeList[3].type === 0)}}">去支付</button>
+            <button class="_button data-v-867f7110 btn1" hidden="{{!(typeList[3].type === 1)}}">申请退款</button>
+            <button class="_button data-v-867f7110 btn2" hidden="{{!(typeList[3].type === 1)}}">获取核销码</button>
+            <button class="_button data-v-867f7110 btn2" hidden="{{!(typeList[3].type === 2)}}">申请退款</button>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

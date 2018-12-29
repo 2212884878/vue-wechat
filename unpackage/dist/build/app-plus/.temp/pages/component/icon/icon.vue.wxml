@@ -1,0 +1,11 @@
+<import src="/components/uni-icon.vue.wxml" />
+<template name="7e0f8be6">
+  <view class="_view data-v-51ce65a2 page">
+    <page-head title="{{title}}" class="_page-head data-v-51ce65a2"></page-head>
+    <view class="_view data-v-51ce65a2 uni-padding-wrap">
+      <view class="_view data-v-51ce65a2 icon-item" wx:key="index" key="{{index}}" wx:for="{{iconClassList}}" wx:for-index="index" wx:for-item="item">
+        <template size="40" bindtap="handleProxy" data-eventid="{{'hYZ-0-'+index}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'CYR-1-'+index],$root}}" is="57fdea9d"></template>
+      </view>
+    </view>
+  </view>
+</template>

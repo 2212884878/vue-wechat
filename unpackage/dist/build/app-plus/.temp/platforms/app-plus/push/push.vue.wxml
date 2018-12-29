@@ -1,0 +1,20 @@
+<template name="43ddbc1e">
+  <view class="_view data-v-32a0d570">
+    <page-head title="{{title}}" class="_page-head data-v-32a0d570"></page-head>
+    <view class="_view data-v-32a0d570 uni-padding-wrap" wx:if="{{provider[0]}}">
+      <view class="_view data-v-32a0d570 uni-btn-v uni-common-mt">
+        <button type="primary" bindtap="handleProxy" data-eventid="{{'H1A-0'}}" data-comkey="{{$k}}" class="_button data-v-32a0d570">开启push</button>
+        <button type="primary" bindtap="handleProxy" data-eventid="{{'7BV-1'}}" data-comkey="{{$k}}" class="_button data-v-32a0d570">关闭push</button>
+        <button type="primary" bindtap="handleProxy" data-eventid="{{'XJP-2'}}" data-comkey="{{$k}}" class="_button data-v-32a0d570">监听透传数据</button>
+        <button type="primary" bindtap="handleProxy" data-eventid="{{'pvA-3'}}" data-comkey="{{$k}}" class="_button data-v-32a0d570">移除监听透传数据</button>
+      </view>
+      <view class="_view data-v-32a0d570 uni-btn-v uni-common-mt">
+        <button type="primary" bindtap="handleProxy" data-eventid="{{'gnE-4'}}" data-comkey="{{$k}}" class="_button data-v-32a0d570">发送"透传数据"消息</button>
+      </view>
+      <view class="_view data-v-32a0d570 uni-title uni-common-mt">透传内容：</view>
+      <view class="_view data-v-32a0d570 uni-textarea">
+        <textarea value="{{tranMsg}}" bindinput="handleProxy" data-eventid="{{'bdR-5'}}" data-comkey="{{$k}}" class="_textarea data-v-32a0d570" />
+      </view>
+    </view>
+  </view>
+</template>

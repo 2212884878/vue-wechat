@@ -1,0 +1,23 @@
+<template name="63e455c6">
+  <view class="_view data-v-693e834f">
+    <page-head title="{{title}}" class="_page-head data-v-693e834f"></page-head>
+    <view class="_view data-v-693e834f uni-padding-wrap uni-common-mt">
+      <view class="_view data-v-693e834f uni-title">默认样式</view>
+      <view class="_view data-v-693e834f">
+        <switch checked bindchange="handleProxy" data-eventid="{{'F8f-0'}}" data-comkey="{{$k}}" class="_switch data-v-693e834f" />
+        <switch bindchange="handleProxy" data-eventid="{{'SKQ-1'}}" data-comkey="{{$k}}" class="_switch data-v-693e834f" />
+      </view>
+      <view class="_view data-v-693e834f uni-title">推荐展示样式</view>
+    </view>
+    <view class="_view data-v-693e834f uni-list">
+      <view class="_view data-v-693e834f uni-list-cell uni-list-cell-pd">
+        <view class="_view data-v-693e834f uni-list-cell-db">开启中</view>
+        <switch checked class="_switch data-v-693e834f" />
+      </view>
+      <view class="_view data-v-693e834f uni-list-cell uni-list-cell-pd">
+        <view class="_view data-v-693e834f uni-list-cell-db">关闭</view>
+        <switch class="_switch data-v-693e834f" />
+      </view>
+    </view>
+  </view>
+</template>

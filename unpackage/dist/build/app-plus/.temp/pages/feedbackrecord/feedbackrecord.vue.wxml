@@ -1,0 +1,28 @@
+<template name="04c599e5">
+  <view class="_view data-v-396eb121">
+    <view class="_view data-v-396eb121 feedRecordList">
+      <view class="_view data-v-396eb121 feedbackItem" wx:key="index" key="{{index}}" wx:for="{{feedbackList}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-396eb121 uploadTime time">{{item.uploadTime}}</view>
+        <view class="_view data-v-396eb121 uploadContent content">{{item.uploadContent}}</view>
+        <view class="_view data-v-396eb121 uploadImg">
+          <view class="_view data-v-396eb121 uni-uploader">
+            <view class="_view data-v-396eb121 uni-uploader-body">
+              <view class="_view data-v-396eb121 uni-uploader__files">
+                <block wx:key="imageIndex" key="{{imageIndex}}" wx:for="{{item.imageList}}" wx:for-index="imageIndex" wx:for-item="imageItem">
+                  <view class="_view data-v-396eb121 uni-uploader__file">
+                    <image class="_image data-v-396eb121 uni-uploader__img" src="{{imageItem}}" data-src="{{imageItem}}"></image>
+                  </view>
+                </block>
+              </view>
+            </view>
+          </view>
+        </view>
+        <view class="_view data-v-396eb121 reply">
+          <view class="_view data-v-396eb121 offciReply"> 园区回复 </view>
+          <view class="_view data-v-396eb121 replyTime time"> {{item.replyTime}} </view>
+        </view>
+        <view class="_view data-v-396eb121 replyContent content">{{item.replyContent}}</view>
+      </view>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,26 @@
+<template name="73870b70">
+  <view class="_view data-v-2d528539">
+    <view class="_view data-v-2d528539 title">{{title}}</view>
+    <view class="_view data-v-2d528539 leyuan">
+      <image src="../../../static/banner4.png" class="_image data-v-2d528539 leyuan1" bindtap="handleProxy" data-eventid="{{'a2M-0'}}" data-comkey="{{$k}}"></image>
+      <image src="../../../static/banner5.png" class="_image data-v-2d528539 leyuan1" bindtap="handleProxy" data-eventid="{{'9kr-1'}}" data-comkey="{{$k}}"></image>
+    </view>
+    <view class="_view data-v-2d528539">
+      <view class="_view data-v-2d528539 quanbu">
+        <view class="_view data-v-2d528539 quanbu1">动物秀场</view>
+        <view class="_view data-v-2d528539 quanbu2">查看全部 ></view>
+      </view>
+      <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" class="_swiper data-v-2d528539">
+        <swiper-item wx:key="item" key="{{item}}" bindtap="handleProxy" data-eventid="{{'VUI-2-'+index}}" data-comkey="{{$k}}" wx:for="{{itemList}}" wx:for-index="index" wx:for-item="item" class="_swiper-item data-v-2d528539">
+          <image src="{{item}}" mode class="_image data-v-2d528539"></image>
+        </swiper-item>
+      </swiper>
+    </view>
+    <view class="_view data-v-2d528539 dongwu">
+      <image src="../../../static/banner6.png" class="_image data-v-2d528539 dongwu1"></image>
+      <image src="../../../static/banner7.png" class="_image data-v-2d528539 dongwu1"></image>
+      <image src="../../../static/banner8.png" class="_image data-v-2d528539 dongwu1" bindtap="handleProxy" data-eventid="{{'L0P-3'}}" data-comkey="{{$k}}"></image>
+      <image src="../../../static/banner9.png" class="_image data-v-2d528539 dongwu1" bindtap="handleProxy" data-eventid="{{'iKv-4'}}" data-comkey="{{$k}}"></image>
+    </view>
+  </view>
+</template>

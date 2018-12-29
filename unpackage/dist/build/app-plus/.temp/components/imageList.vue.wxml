@@ -1,0 +1,13 @@
+<template name="4bf74cc2">
+  <view class="_view data-v-99e5509a">
+    <view class="_view data-v-99e5509a image-list" wx:for="{{imageList}}" wx:for-index="index" wx:for-item="item">
+      <view class="_view data-v-99e5509a imageWrapper">
+        <image src="{{item.url}}" mode class="_image data-v-99e5509a"></image>
+        <view class="_view data-v-99e5509a imageMask">
+          <view class="_view data-v-99e5509a scenicTitle"> {{item.scenicTitle}} </view>
+          <view class="_view data-v-99e5509a introInfo" wx:if="{{item.introInfo}}"> {{item.introInfo}} </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

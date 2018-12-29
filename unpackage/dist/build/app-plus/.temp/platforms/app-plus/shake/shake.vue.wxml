@@ -1,0 +1,10 @@
+<template name="015204c5">
+  <view class="_view data-v-d128f054 root" style=" {{('background-image:' + ('url(' + img + ')') + ';')}}">
+    <view class="_view data-v-d128f054 {{[show ? 'up' : '', 'shake-up']}}">
+      <image mode="aspectFit" src="https://img-cdn-qiniu.dcloud.net.cn/uniapp/shake/shakeup.png" class="_image data-v-d128f054"></image>
+    </view>
+    <view class="_view data-v-d128f054 {{[show ? 'down' : '', 'shake-down']}}">
+      <image mode="aspectFit" src="https://img-cdn-qiniu.dcloud.net.cn/uniapp/shake/shakedown.png" class="_image data-v-d128f054"></image>
+    </view>
+  </view>
+</template>

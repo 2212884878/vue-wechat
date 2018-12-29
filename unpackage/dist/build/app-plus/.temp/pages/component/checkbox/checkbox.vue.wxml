@@ -1,0 +1,31 @@
+<template name="fa6358b4">
+  <view class="_view data-v-a943c522">
+    <page-head title="{{title}}" class="_page-head data-v-a943c522"></page-head>
+    <view class="_view data-v-a943c522 uni-padding-wrap uni-common-mt">
+      <view class="_view data-v-a943c522 uni-title uni-common-mt">默认样式</view>
+      <view class="_view data-v-a943c522">
+        <checkbox-group class="_checkbox-group data-v-a943c522">
+          <label class="_label data-v-a943c522">
+            <checkbox value="cb" checked="true" class="_checkbox data-v-a943c522"></checkbox>选中 </label>
+          <label class="_label data-v-a943c522">
+            <checkbox value="cb" class="_checkbox data-v-a943c522"></checkbox>未选中 </label>
+        </checkbox-group>
+      </view>
+    </view>
+    <view class="_view data-v-a943c522 uni-padding-wrap">
+      <view class="_view data-v-a943c522 uni-title uni-common-mt"> 推荐展示样式
+        <text class="_text data-v-a943c522">\n使用 uni-list 布局</text>
+      </view>
+    </view>
+    <view class="_view data-v-a943c522 uni-list">
+      <checkbox-group bindchange="handleProxy" data-eventid="{{'SBb-0'}}" data-comkey="{{$k}}" class="_checkbox-group data-v-a943c522">
+        <label class="_label data-v-a943c522 uni-list-cell uni-list-cell-pd" wx:key="item.value" key="{{item.value}}" wx:for="{{items}}" wx:for-index="index" wx:for-item="item">
+          <view class="_view data-v-a943c522">
+            <checkbox value="{{item.value}}" checked="{{item.checked}}" class="_checkbox data-v-a943c522"></checkbox>
+          </view>
+          <view class="_view data-v-a943c522">{{item.name}}</view>
+        </label>
+      </checkbox-group>
+    </view>
+  </view>
+</template>

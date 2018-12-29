@@ -1,0 +1,93 @@
+<import src="/components/swiper3.vue.wxml" />
+<import src="/components/uni-segmented-control.vue.wxml" />
+<import src="/components/uni-number-box.vue.wxml" />
+<template name="5c8f23ea">
+  <view class="_view data-v-24ea6573 product-deatil">
+    <view class="_view data-v-24ea6573 banner">
+      <template data="{{...$root['0'], ...$root[$kk+'pv9-0'],$root}}" is="f15f0bb8"></template>
+    </view>
+    <view class="_view data-v-24ea6573 bgfff">
+      <view class="_view data-v-24ea6573 product-title">海洋欢乐世界海豚旅游纪念品海豚旅游 纪念品</view>
+      <view class="_view data-v-24ea6573 pice">
+        <view class="_view data-v-24ea6573">
+          <label class="_span data-v-24ea6573 p1">￥142</label>
+          <label class="_span data-v-24ea6573 p2">原价￥180</label>
+        </view>
+        <view class="_view data-v-24ea6573">
+          <label class="_span data-v-24ea6573 p3">园区自提</label>
+          <label class="_span data-v-24ea6573 p3 cl">邮寄</label>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-24ea6573 h8"></view>
+    <view class="_view data-v-24ea6573 product-deatil-box">
+      <view class="_view data-v-24ea6573 uni-padding-wrap">
+        <template bindclickItem="handleProxy" data-eventid="{{'yQ3-0'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'d92-1'],$root}}" is="9a0b32a4"></template>
+      </view>
+      <view class="_view data-v-24ea6573 content">
+        <view hidden="{{!(current === 0)}}" class="_view data-v-24ea6573">
+          <view class="_view data-v-24ea6573 info2 uni-common-mb">海豚旅游纪念品</view>
+          <view class="_view data-v-24ea6573 info2 uni-common-mb">蓝色尺寸：H230mm x W38mmx
+            <view class="_br data-v-24ea6573"></view> D21mm,公称丝径：外侧0.20mm&,内侧
+            <view class="_br data-v-24ea6573"></view> 0.18mm& </view>
+          <view class="_view data-v-24ea6573 info2 uni-common-mb"> 人造尼龙毛，饱和聚树脂 </view>
+          <view class="_view data-v-24ea6573 info2 uni-common-mb"> 蓝色尺寸：H230mm x W38mmx
+            <view class="_br data-v-24ea6573"></view> D21mm,公称丝径：外侧0.20mm&,内侧
+            <view class="_br data-v-24ea6573"></view> 0.18mm& </view>
+        </view>
+        <view hidden="{{!(current === 1)}}" class="_view data-v-24ea6573">
+          <view class="_view data-v-24ea6573 info2 uni-common-mb">购买须知</view>
+          <view class="_view data-v-24ea6573 info2 uni-common-mb">蓝色尺寸：H230mm x W38mmx
+            <view class="_br data-v-24ea6573"></view> D21mm,公称丝径：外侧0.20mm&,内侧
+            <view class="_br data-v-24ea6573"></view> 0.18mm& </view>
+          <view class="_view data-v-24ea6573 info2 uni-common-mb"> 购买须知 </view>
+          <view class="_view data-v-24ea6573 info2 uni-common-mb"> 蓝色尺寸：H230mm x W38mmx
+            <view class="_br data-v-24ea6573"></view> D21mm,公称丝径：外侧0.20mm&,内侧
+            <view class="_br data-v-24ea6573"></view> 0.18mm& </view>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-24ea6573 product-footer">
+      <button class="_button data-v-24ea6573 but" bindtap="handleProxy" data-eventid="{{'ryJ-1'}}" data-comkey="{{$k}}">加入购物车</button>
+      <button class="_button data-v-24ea6573 but" type="primary" bindtap="handleProxy" data-eventid="{{'uAP-2'}}" data-comkey="{{$k}}">立即购买</button>
+    </view>
+    <view class="_view data-v-24ea6573 product-bg" wx:if="{{status}}" bindtap="handleProxy" data-eventid="{{'rA4-3'}}" data-comkey="{{$k}}"></view>
+    <view class="_view data-v-24ea6573 product-bg-con" wx:if="{{status}}">
+      <view class="_view data-v-24ea6573 info1">
+        <view class="_view data-v-24ea6573 uni-inline-item">
+          <text class="_text data-v-24ea6573">选择购买数量 : </text>
+          <template bindchange="handleProxy" data-eventid="{{'0AE-4'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'acF-2'],$root}}" is="725b412a"></template>
+        </view>
+        <view class="_view data-v-24ea6573 uni-inline-item uni-common-mt">兑换方式</view>
+        <view class="_view data-v-24ea6573 uni-inline-item uni-common-mt uni-common-pl">
+          <radio-group bindchange="handleProxy" data-eventid="{{'jOj-5'}}" data-comkey="{{$k}}" class="_radio-group data-v-24ea6573">
+            <label class="_label data-v-24ea6573 radio" wx:key="item.value" key="{{item.value}}" wx:for="{{items2}}" wx:for-index="index" wx:for-item="item">
+              <radio value="{{item.value}}" checked="true" class="_radio data-v-24ea6573" />{{item.name}} </label>
+          </radio-group>
+        </view>
+      </view>
+      <view class="_view data-v-24ea6573 product-footer">
+        <button class="_button data-v-24ea6573 but" bindtap="handleProxy" data-eventid="{{'7lo-6'}}" data-comkey="{{$k}}">取消</button>
+        <button class="_button data-v-24ea6573 but" type="primary" bindtap="handleProxy" data-eventid="{{'pcE-7'}}" data-comkey="{{$k}}">确定</button>
+      </view>
+    </view>
+    <view class="_view data-v-24ea6573 uni-banner" style="background:#FFFFFF;" wx:if="{{bannerShow}}">
+      <view style="justify-content:flex-end;" bindtap="handleProxy" data-eventid="{{'Sy3-8'}}" data-comkey="{{$k}}" class="_view data-v-24ea6573">
+        <view style="justify-content:flex-end; text-align:right; padding:20rpx;" class="_view data-v-24ea6573">
+          <text class="_text data-v-24ea6573 uni-icon uni-icon-close"></text>
+        </view>
+      </view>
+      <view class="_view data-v-24ea6573 img">
+        <image src="https://img-cdn-qiniu.dcloud.net.cn/uniapp/images/shuijiao.jpg" style="width:145rpx;height: 145rpx;" class="_image data-v-24ea6573"></image>
+        <view class="_view data-v-24ea6573 uni-common-mt">成功添加购物车！</view>
+      </view>
+      <view class="_view data-v-24ea6573 uni-banner-footer uni-common-mt">
+        <view class="_view data-v-24ea6573 but" bindtap="handleProxy" data-eventid="{{'EOy-9'}}" data-comkey="{{$k}}">继续购买</view>
+        <navigator url="../../shoppingCart/shoppingCart" class="_navigator data-v-24ea6573">
+          <view class="_view data-v-24ea6573 but">去购物车结算</view>
+        </navigator>
+      </view>
+    </view>
+    <view class="_view data-v-24ea6573 uni-mask" wx:if="{{bannerShow}}"></view>
+  </view>
+</template>

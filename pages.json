@@ -1,0 +1,844 @@
+{
+    "pages" : [
+        {
+            "path" : "pages/tabBar/component/component",
+            "style" : {
+                "navigationBarTitleText" : "富力海洋欢乐世界"
+            }
+        },
+        {
+            "path" : "pages/tabBar/templates/templates",
+            "style" : {
+                "navigationBarTitleText" : "网上订购"
+            }
+        },
+        {
+            "path" : "pages/tabBar/API/API",
+            "style" : {
+                "navigationBarTitleText" : "导览"
+            }
+        },
+        {
+            "path" : "pages/tabBar/template/template",
+            "style" : {
+                "navigationBarTitleText" : "个人中心"
+            }
+        },
+        {
+            "path" : "pages/component/view/view",
+            "style" : {
+                "navigationBarTitleText" : "view"
+            }
+        },
+        {
+            "path" : "pages/template/Animal/Animal",
+            "style" : {
+                "navigationBarTitleText" : "动物秀场"
+            }
+        },
+        {
+            "path" : "pages/component/Three/Three",
+            "style" : {
+                "navigationBarTitleText" : "秀场详情"
+            }
+        },
+        {
+            "path" : "pages/template/product-deatil/product-deatil",
+            "style" : {
+                "navigationBarTitleText" : "门票详情",
+                "app-plus" : {
+                    "titleNView" : {
+						"backgroundColor":"#FFFFFF",
+                        "type" : "transparent",
+                        "buttons" : [
+                            {
+								"text": "<view style='background-image: url(&quot;/static/ioce-gwc.png&quot;); background-size: 100% 100%; background-position: 0% 0%; background-repeat: no-repeat;width:25px;height:25px;display: flex;'></view>",
+                                "onclick" : "searchBtn"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "path" : "pages/template/product-deatil/productDeatil",
+            "style" : {
+                "navigationBarTitleText" : "商品详情",
+                "app-plus" : {
+                    "titleNView" : {
+						"backgroundColor":"#FFFFFF",
+                        "type" : "transparent",
+                        "buttons" : [
+                            {
+                                "text": "<view style='background-image: url(&quot;/static/ioce-gwc.png&quot;); background-size: 100% 100%; background-position: 0% 0%; background-repeat: no-repeat;width:25px;height:25px;display: flex;'></view>",
+                                "onclick" : "searchBtn"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "path" : "pages/shoppingCart/shoppingCart",
+            "style" : {
+                "navigationBarTitleText" : "购物车"
+            }
+        },
+        {
+            "path" : "pages/feedback/feedback",
+            "style" : {
+                "navigationBarTitleText" : "问题反馈",
+                "app-plus" : {
+                    "titleNView" : {
+                        "buttons" : [
+                            {
+                                "text" : "反馈记录",
+                                "fontSrc" : "/static/uni.ttf",
+                                "fontSize" : "28upx",
+                                "color" : "#333",
+                                "onclick" : "searchBtn"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "path" : "pages/feedbackrecord/feedbackrecord",
+            "style" : {
+                "navigationBarTitleText" : "反馈记录"
+            }
+        },
+        {
+            "path" : "pages/component/scroll-view/scroll-view",
+            "style" : {
+                "navigationBarTitleText" : "scroll-view"
+            }
+        },
+        {
+            "path" : "pages/component/swiper/swiper",
+            "style" : {
+                "navigationBarTitleText" : "swiper"
+            }
+        },
+        {
+            "path" : "pages/component/movable-view/movable-view",
+            "style" : {
+                "navigationBarTitleText" : "movable-view"
+            }
+        },
+        {
+            "path" : "pages/component/text/text",
+            "style" : {
+                "navigationBarTitleText" : "text"
+            }
+        },
+        {
+            "path" : "pages/component/rich-text/rich-text",
+            "style" : {
+                "navigationBarTitleText" : "rich-text"
+            }
+        },
+        {
+            "path" : "pages/component/progress/progress",
+            "style" : {
+                "navigationBarTitleText" : "progress"
+            }
+        },
+        {
+            "path" : "pages/component/button/button",
+            "style" : {
+                "navigationBarTitleText" : "button"
+            }
+        },
+        {
+            "path" : "pages/component/checkbox/checkbox",
+            "style" : {
+                "navigationBarTitleText" : "checkbox"
+            }
+        },
+        {
+            "path" : "pages/component/form/form",
+            "style" : {
+                "navigationBarTitleText" : "form"
+            }
+        },
+        {
+            "path" : "pages/component/input/input",
+            "style" : {
+                "navigationBarTitleText" : "input"
+            }
+        },
+        {
+            "path" : "pages/component/label/label",
+            "style" : {
+                "navigationBarTitleText" : "label"
+            }
+        },
+        {
+            "path" : "pages/component/picker/picker",
+            "style" : {
+                "navigationBarTitleText" : "picker"
+            }
+        },
+        {
+            "path" : "pages/component/picker-view/picker-view",
+            "style" : {
+                "navigationBarTitleText" : "picker-view"
+            }
+        },
+        {
+            "path" : "pages/component/radio/radio",
+            "style" : {
+                "navigationBarTitleText" : "radio"
+            }
+        },
+        {
+            "path" : "pages/component/slider/slider",
+            "style" : {
+                "navigationBarTitleText" : "slider"
+            }
+        },
+        {
+            "path" : "pages/component/switch/switch",
+            "style" : {
+                "navigationBarTitleText" : "switch"
+            }
+        },
+        {
+            "path" : "pages/component/textarea/textarea",
+            "style" : {
+                "navigationBarTitleText" : "textarea"
+            }
+        },
+        {
+            "path" : "pages/component/navigator/navigator",
+            "style" : {
+                "navigationBarTitleText" : "navigator"
+            }
+        },
+        {
+            "path" : "pages/component/navigator/navigate/navigate",
+            "style" : {
+                "navigationBarTitleText" : "navigatePage"
+            }
+        },
+        {
+            "path" : "pages/component/navigator/redirect/redirect",
+            "style" : {
+                "navigationBarTitleText" : "redirectPage"
+            }
+        },
+        {
+            "path" : "pages/component/image/image",
+            "style" : {
+                "navigationBarTitleText" : "image"
+            }
+        },
+        {
+            "path" : "pages/component/audio/audio",
+            "style" : {
+                "navigationBarTitleText" : "audio"
+            }
+        },
+        {
+            "path" : "pages/component/video/video",
+            "style" : {
+                "navigationBarTitleText" : "video"
+            }
+        },
+        {
+            "path" : "pages/component/map/map",
+            "style" : {
+                "navigationBarTitleText" : "map"
+            }
+        },
+        {
+            "path" : "pages/component/canvas/canvas",
+            "style" : {
+                "navigationBarTitleText" : "canvas"
+            }
+        },
+        {
+            "path" : "pages/component/web-view/web-view",
+            "style" : {
+                "navigationBarTitleText" : "web-view"
+            }
+        },
+        {
+            "path" : "pages/API/share/share",
+            "style" : {
+                "navigationBarTitleText" : "分享"
+            }
+        },
+        {
+            "path" : "platforms/mp-weixin/custom-message/custom-message",
+            "style" : {
+                "navigationBarTitleText" : "客服消息"
+            }
+        },
+        {
+            "path" : "platforms/mp-weixin/template-message/template-message",
+            "style" : {
+                "navigationBarTitleText" : "模板消息"
+            }
+        },
+        {
+            "path" : "platforms/app-plus/shake/shake",
+            "style" : {
+                "navigationBarTitleText" : "摇一摇"
+            }
+        },
+        {
+            "path" : "platforms/app-plus/speech/speech",
+            "style" : {
+                "navigationBarTitleText" : "语音识别"
+            }
+        },
+        {
+            "path" : "platforms/app-plus/orientation/orientation",
+            "style" : {
+                "navigationBarTitleText" : "方向传感器"
+            }
+        },
+        {
+            "path" : "platforms/app-plus/proximity/proximity",
+            "style" : {
+                "navigationBarTitleText" : "距离传感器"
+            }
+        },
+        {
+            "path" : "platforms/app-plus/push/push",
+            "style" : {
+                "navigationBarTitleText" : "推送"
+            }
+        },
+        {
+            "path" : "pages/component/icon/icon",
+            "style" : {
+                "navigationBarTitleText" : "icon"
+            }
+        },
+        {
+            "path" : "platforms/app-plus/feedback/feedback",
+            "style" : {
+                "navigationBarTitleText" : "问题反馈"
+            }
+        },
+        {
+            "path" : "platforms/app-plus/about/about",
+            "style" : {
+                "navigationBarTitleText" : "关于"
+            }
+        },
+        {
+            "path" : "platforms/h5/about/about",
+            "style" : {
+                "navigationBarTitleText" : "关于"
+            }
+        },
+        {
+            "path" : "platforms/app-plus/tabbar/tabbar",
+            "style" : {
+                "navigationBarTitleText" : "可拖动顶部选项卡（非原生）"
+            }
+        },
+        {
+            "path" : "platforms/app-plus/web-view-local/web-view-local",
+            "style" : {}
+        },
+        {
+            "path" : "pages/tabBar/templates/shopping/shopping",
+            "style" : {}
+        },
+        {
+            "path" : "pages/tabBar/templates/fillorder/fillorder",
+            "style" : {
+                "navigationBarTitleText" : "商品详情"
+            }
+        },
+        {
+            "path" : "pages/template/mine-info/mine-info",
+            "style" : {
+                "navigationBarTitleText" : "个人信息"
+            }
+        },
+        {
+            "path" : "pages/template/complete-info/complete-info",
+            "style" : {
+                "navigationBarTitleText" : "完善信息"
+            }
+        },
+        {
+            "path" : "pages/template/order-list/order-list",
+            "style" : {
+                "navigationBarTitleText" : "我的订单"
+            }
+        },
+        {
+            "path" : "pages/template/order-detail/order-detail",
+            "style" : {}
+        },
+        {
+            "path" : "pages/template/activity/activity",
+            "style" : {
+                "navigationBarTitleText" : "活动详情"
+            }
+        },
+        {
+            "path" : "pages/tabBar/templates/payorder/payorder",
+            "style" : {}
+        },
+        {
+            "path" : "pages/tabBar/templates/success/success",
+            "style" : {}
+        },
+        {
+            "path" : "pages/tabBar/templates/error/error",
+            "style" : {}
+        },
+        {
+            "path" : "pages/themePark/themePark",
+            "style" : {
+                "navigationBarTitleText" : "欢乐海洋世界"
+            }
+        },
+        {
+            "path" : "pages/ticketsList/ticketsList",
+            "style" : {
+                "navigationBarTitleText" : "门票"
+            }
+        },
+        {
+            "path" : "pages/personal/personal",
+            "style" : {
+                "navigationBarTitleText" : "私人订制"
+            }
+        },
+        {
+            "path" : "pages/animal/animal",
+            "style" : {
+                "navigationBarTitleText" : "动物秀场"
+            }
+        },
+        {
+            "path" : "pages/holtel/holtel",
+            "style" : {
+                "navigationBarTitleText" : "主题酒店"
+            }
+        },
+        {
+            "path" : "pages/trafficGuide/trafficGuide",
+            "style" : {
+                "navigationBarTitleText" : "交通指南"
+            }
+        },
+        {
+            "path" : "pages/introduceInfo/introduceInfo",
+            "style" : {}
+        },
+        {
+            "path" : "pages/animalDetail/animalDetail",
+            "style" : {}
+        },
+        {
+            "path" : "pages/holtelDatail/holtelDatail",
+            "style" : {
+                "navigationBarTitleText" : "酒店详情"
+            }
+        },
+        {
+            "path" : "pages/themeParkDetail/themeParkDetail",
+            "style" : {
+                "navigationBarTitleText" : "欢乐海洋世界"
+            }
+        },
+        {
+            "path" : "pages/oceanParkDetail/oceanParkDetail",
+            "style" : {
+                "navigationBarTitleText" : "麦迪卡斯水乐园"
+            }
+        },
+        {
+            "path" : "pages/personalDetail/personalDetail",
+            "style" : {
+                "navigationBarTitleText" : "VIP通道"
+            }
+        },
+        {
+            "path" : "pages/playDetail/playDetail",
+            "style" : {}
+        },
+		{
+			"path" : "pages/template/traffic/traffic",
+			"style" : {}
+		}
+    ],
+    "subPackages" : [
+        {
+            "root" : "pages/template",
+            "pages" : [
+                {
+                    "path" : "number-box/number-box",
+                    "style" : {
+                        "navigationBarTitleText" : "数字输入框"
+                    }
+                },
+                {
+                    "path" : "product-list/product-list",
+                    "style" : {
+                        "navigationBarTitleText" : "商品列表",
+                        "enablePullDownRefresh" : true,
+                        "onReachBottomDistance" : 20
+                    }
+                },
+                {
+                    "path" : "mdparse/mdparse",
+                    "style" : {
+                        "navigationBarTitleText" : "markdown富文本渲染"
+                    }
+                },
+                {
+                    "path" : "qrcode/qrcode",
+                    "style" : {
+                        "navigationBarTitleText" : "二维码生成"
+                    }
+                },
+                {
+                    "path" : "crop/crop",
+                    "style" : {
+                        "navigationBarTitleText" : "图片裁剪"
+                    }
+                },
+                {
+                    "path" : "echarts/echarts",
+                    "style" : {
+                        "navigationBarTitleText" : "ECharts图表"
+                    }
+                },
+                {
+                    "path" : "nav-default/nav-default",
+                    "style" : {
+                        "navigationBarTitleText" : "默认导航栏"
+                    }
+                },
+                {
+                    "path" : "nav-transparent/nav-transparent",
+                    "style" : {
+                        "navigationBarTitleText" : "透明渐变导航栏",
+                        "app-plus" : {
+                            "titleNView" : {
+                                "type" : "transparent"
+                            }
+                        }
+                    }
+                },
+                {
+                    "path" : "nav-button/nav-button",
+                    "style" : {
+                        "navigationBarTitleText" : "导航栏带自定义按钮",
+                        "app-plus" : {
+                            "titleNView" : {
+                                "buttons" : [
+                                    {
+                                        "type" : "share"
+                                    },
+                                    {
+                                        "type" : "favorite"
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                },
+                {
+                    "path" : "mpvue-picker/mpvue-picker",
+                    "style" : {
+                        "navigationBarTitleText" : "多列选择picker"
+                    }
+                },
+                {
+                    "path" : "drawer/drawer",
+                    "style" : {
+                        "navigationBarTitleText" : "抽屉侧滑菜单drawer",
+                        "app-plus" : {
+                            "titleNView" : {
+                                "buttons" : [
+                                    {
+                                        "text" : "\ue563",
+                                        "fontSrc" : "/static/uni.ttf",
+                                        "fontSize" : "22px"
+                                    }
+                                ]
+                            },
+                            "bounce" : "none"
+                        }
+                    }
+                },
+                {
+                    "path" : "load-more/load-more",
+                    "style" : {
+                        "navigationBarTitleText" : "加载更多"
+                    }
+                },
+                {
+                    "path" : "md-editor/md-editor",
+                    "style" : {
+                        "navigationBarTitleText" : "md富文本编辑器"
+                    }
+                },
+                {
+                    "path" : "left-category/left-category",
+                    "style" : {
+                        "navigationBarTitleText" : "侧边分类导航"
+                    }
+                },
+                {
+                    "path" : "segmented-control/segmented-control",
+                    "style" : {
+                        "navigationBarTitleText" : "分段器segement"
+                    }
+                },
+                {
+                    "path" : "list-with-collapses/list-with-collapses",
+                    "style" : {
+                        "navigationBarTitleText" : "二级列表"
+                    }
+                },
+                {
+                    "path" : "list-triplex-row/list-triplex-row",
+                    "style" : {
+                        "navigationBarTitleText" : "三行列表"
+                    }
+                },
+                {
+                    "path" : "list2detail-list/list2detail-list",
+                    "style" : {
+                        "navigationBarTitleText" : "列表到详情示例",
+                        "enablePullDownRefresh" : true
+                    }
+                },
+                {
+                    "path" : "list2detail-detail/list2detail-detail",
+                    "style" : {
+                        "navigationBarTitleText" : "详情",
+                        "app-plus" : {
+                            "titleNView" : {
+                                "type" : "transparent"
+                            }
+                        }
+                    }
+                },
+                {
+                    "path" : "popup/popup",
+                    "style" : {
+                        "navigationBarTitleText" : "popup"
+                    }
+                },
+                {
+                    "path" : "tabbar/tabbar",
+                    "style" : {
+                        "navigationBarTitleText" : "可拖动顶部选项卡",
+                        "app-plus" : {
+                            "titleNView" : {
+                                "titleText" : "可拖动顶部选项卡（原生）"
+                            }
+                        },
+                        "h5" : {
+                            "titleNView" : {
+                                "titleText" : "可拖动顶部选项卡"
+                            }
+                        }
+                    }
+                },
+                {
+                    "path" : "tabbar/detail/detail",
+                    "style" : {
+                        "navigationBarTitleText" : "详情页面"
+                    }
+                },
+                {
+                    "path" : "media-list/media-list",
+                    "style" : {
+                        "navigationBarTitleText" : "图文列表"
+                    }
+                },
+                {
+                    "path" : "index-list/index-list",
+                    "style" : {
+                        "navigationBarTitleText" : "索引列表index-list",
+                        "mp-weixin" : {
+                            "disableScroll" : true
+                        },
+                        "app-plus" : {
+                            "bounce" : "none"
+                        }
+                    }
+                },
+                {
+                    "path" : "grid/grid",
+                    "style" : {
+                        "navigationBarTitleText" : "九宫格"
+                    }
+                },
+                {
+                    "path" : "grid-pagination/grid-pagination",
+                    "style" : {
+                        "navigationBarTitleText" : "左右拖动分页9宫格"
+                    }
+                },
+                {
+                    "path" : "badge/badge",
+                    "style" : {
+                        "navigationBarTitleText" : "数字角标"
+                    }
+                },
+                {
+                    "path" : "accordion/accordion",
+                    "style" : {
+                        "navigationBarTitleText" : "折叠面板"
+                    }
+                },
+                {
+                    "path" : "cardview/cardview",
+                    "style" : {
+                        "navigationBarTitleText" : "卡片视图"
+                    }
+                },
+                {
+                    "path" : "list-with-badges/list-with-badges",
+                    "style" : {
+                        "navigationBarTitleText" : "右侧带角标"
+                    }
+                },
+                {
+                    "path" : "lazy-load/lazy-load",
+                    "style" : {
+                        "navigationBarTitleText" : "懒加载"
+                    }
+                },
+                {
+                    "path" : "lazy-load-custom/lazy-load-custom",
+                    "style" : {
+                        "navigationBarTitleText" : "懒加载"
+                    }
+                },
+                {
+                    "path" : "im-chat/im-chat",
+                    "style" : {
+                        "navigationBarTitleText" : "聊天窗口chat"
+                    }
+                },
+                {
+                    "path" : "nav-bar/nav-bar",
+                    "style" : {
+                        "navigationBarTitleText" : "导航栏组件",
+                        "enablePullDownRefresh" : true,
+                        "app-plus" : {
+                            "titleNView" : false,
+                            "bounce" : "none",
+                            "scrollIndicator" : "none",
+                            "pullToRefresh" : {
+                                "style" : "circle",
+                                "offset" : "70px",
+                                "color" : "#007AFF"
+                            }
+                        }
+                    }
+                },
+                {
+                    "path" : "gesture-lock/gesture-lock",
+                    "style" : {
+                        "navigationBarTitleText" : "手势图案锁屏"
+                    }
+                },
+                {
+                    "path" : "scrollmsg/scrollmsg",
+                    "style" : {
+                        "navigationBarTitleText" : "滚动公告"
+                    }
+                },
+                {
+                    "path" : "steps/steps",
+                    "style" : {
+                        "navigationBarTitleText" : "步骤展示"
+                    }
+                },
+                {
+                    "path" : "comments/comments",
+                    "style" : {
+                        "navigationBarTitleText" : "评论界面"
+                    }
+                },
+                {
+                    "path" : "timeline/timeline",
+                    "style" : {
+                        "navigationBarTitleText" : "时间轴 timeline"
+                    }
+                },
+                {
+                    "path" : "tag/tag",
+                    "style" : {
+                        "navigationBarTitleText" : "标签tag"
+                    }
+                },
+                {
+                    "path" : "countdown/countdown",
+                    "style" : {
+                        "navigationBarTitleText" : "倒计时"
+                    }
+                },
+                {
+                    "path" : "datachecker/datachecker",
+                    "style" : {
+                        "navigationBarTitleText" : "表单校验"
+                    }
+                },
+                {
+                    "path" : "sbanner/sbanner",
+                    "style" : {
+                        "navigationBarTitleText" : "插屏弹窗"
+                    }
+                }
+            ]
+        }
+    ],
+    "globalStyle" : {
+        "navigationBarTextStyle" : "black",
+        "navigationBarTitleText" : "富力海洋欢乐公园",
+        "navigationBarBackgroundColor" : "#fff",
+        "backgroundColor" : "#fff"
+    },
+    "tabBar" : {
+        "color" : "#999999",
+        "selectedColor" : "#0764e9",
+        "borderStyle" : "black",
+        "backgroundColor" : "#ffffff",
+        "list" : [
+            {
+                "pagePath" : "pages/tabBar/component/component",
+                "iconPath" : "static/homeNo.png",
+                "selectedIconPath" : "static/homeYes.png",
+                "text" : "首页"
+            },
+            {
+                "pagePath" : "pages/tabBar/templates/templates",
+                "iconPath" : "static/buyNo.png",
+                "selectedIconPath" : "static/buyYes.png",
+                "text" : "订购"
+            },
+            {
+                "pagePath" : "pages/tabBar/API/API",
+                "iconPath" : "static/screenNo.png",
+                "selectedIconPath" : "static/screenYes.png",
+                "text" : "导览"
+            },
+            {
+                "pagePath" : "pages/tabBar/template/template",
+                "iconPath" : "static/centerNo.png",
+                "selectedIconPath" : "static/centerYes.png",
+                "text" : "个人中心"
+            }
+        ]
+    }
+}

@@ -1,0 +1,1 @@
+<import src="/pages/template/accordion/accordion.vue.wxml" /><template is="b58ccfce" data="{{ ...$root['0'], $root }}"/>

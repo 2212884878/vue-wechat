@@ -1,0 +1,15 @@
+<import src="/components/swiper3.vue.wxml" />
+<import src="/pages/component/Three/description.vue.wxml" />
+<import src="/components/uni-popup.vue.wxml" />
+<import src="/components/uni-tag.vue.wxml" />
+<template name="4684650a">
+  <view class="_view data-v-84e5fce6">
+    <block wx:if="{{status}}">
+      <template data="{{...$root['0'], ...$root[$kk+'Q9b-0'],$root}}" is="f15f0bb8"></template>
+      <template data="{{...$root['0'], ...$root[$kk+'r1V-1'],$root}}" is="b95404f0"></template>
+    </block>
+    <block wx:else>
+      <template bindhidePopup="handleProxy" data-eventid="{{'XiJ-1'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'YEG-3'],$root, $slotdefault:'data-v-84e5fce6-default-YEG-3'}}" is="4ef3e290"></template>
+    </block>
+  </view>
+</template>

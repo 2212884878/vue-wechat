@@ -1,0 +1,21 @@
+<template name="dcdf9dfe">
+  <view class="_view data-v-72b245d8 page">
+    <page-head title="{{title}}" class="_page-head data-v-72b245d8"></page-head>
+    <view class="_view data-v-72b245d8 uni-list">
+      <block wx:key="index" key="{{index}}" wx:for="{{lists}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-72b245d8 uni-list-cell" hover-class="uni-list-cell-hover">
+          <view class="_view data-v-72b245d8 uni-triplex-row">
+            <view class="_view data-v-72b245d8 uni-triplex-left">
+              <text class="_text data-v-72b245d8 uni-title uni-ellipsis">列表主标题</text>
+              <text class="_text data-v-72b245d8 uni-text">列表副标题</text>
+              <text class="_text data-v-72b245d8 uni-text-small uni-ellipsis">列表内容文字,列表内容文字,列表内容文字,列表内容文字,列表内容文字,列表内容文字</text>
+            </view>
+            <view class="_view data-v-72b245d8 uni-triplex-right">
+              <text class="_text data-v-72b245d8 uni-h5">12:15</text>
+            </view>
+          </view>
+        </view>
+      </block>
+    </view>
+  </view>
+</template>

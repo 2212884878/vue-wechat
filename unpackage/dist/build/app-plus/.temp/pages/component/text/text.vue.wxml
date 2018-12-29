@@ -1,0 +1,14 @@
+<template name="99fec734">
+  <view class="_view data-v-0c09ddaf">
+    <page-head title="{{title}}" class="_page-head data-v-0c09ddaf"></page-head>
+    <view class="_view data-v-0c09ddaf uni-padding-wrap uni-common-mt">
+      <view class="_view data-v-0c09ddaf text-box" scroll-y="true">
+        <text class="_text data-v-0c09ddaf">{{text}}</text>
+      </view>
+      <view class="_view data-v-0c09ddaf uni-btn-v">
+        <button type="primary" disabled="{{!canAdd}}" bindtap="handleProxy" data-eventid="{{'ydr-0'}}" data-comkey="{{$k}}" class="_button data-v-0c09ddaf">add line</button>
+        <button type="warn" disabled="{{!canRemove}}" bindtap="handleProxy" data-eventid="{{'B8W-1'}}" data-comkey="{{$k}}" class="_button data-v-0c09ddaf">remove line</button>
+      </view>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,48 @@
+<import src="/components/uni-number-box.vue.wxml" />
+<template name="802b823e">
+  <view class="_view data-v-02f72e78 product-deatil">
+    <view class="_view data-v-02f72e78 banner">
+      <image class="_image data-v-02f72e78 banner-img" src="../../../static/animal/1.png"></image>
+    </view>
+    <view class="_view data-v-02f72e78 bgfff">
+      <view class="_view data-v-02f72e78 product-title">成人全日票/成人全日票成人全日票成人全日票</view>
+      <view class="_view data-v-02f72e78 pice">
+        <view class="_view data-v-02f72e78">
+          <label class="_span data-v-02f72e78 p1">￥142</label>
+          <label class="_span data-v-02f72e78 p2">原价￥180</label>
+        </view>
+        <view class="_view data-v-02f72e78">
+          <label class="_span data-v-02f72e78 p3">可退订</label>
+        </view>
+      </view>
+      <view class="_view data-v-02f72e78 time">游玩时间：2018.12.11 08:30-16:30</view>
+    </view>
+    <view class="_view data-v-02f72e78 h8"></view>
+    <view class="_view data-v-02f72e78 product-deatil-box">
+      <view class="_view data-v-02f72e78 info1">预订须知</view>
+      <view class="_view data-v-02f72e78 info2 mt10">【适用人群】</view>
+      <view class="_view data-v-02f72e78 info2 mb44">适用于成人或身高≥1.5米的儿童</view>
+      <view class="_view data-v-02f72e78 info2">【有效期】</view>
+      <view class="_view data-v-02f72e78 info2">1、2018年11月9日-11月11日期间，购买时指定入园日期当天有效。一次性使用，出园再入园需另外购票；
+        <view class="_br data-v-02f72e78"></view> 2、开放时间：09：00-17:30，开闭园时间仅供参考，根据当日天气状况以景区现场公告为准。
+        <view class="_br data-v-02f72e78"></view> 3、开放时间：09：00-17:30，开闭园时间仅供参考，根据当日天气状况以景区现场公告为准。</view>
+    </view>
+    <view class="_view data-v-02f72e78 product-footer">
+      <button class="_button data-v-02f72e78 but" bindtap="handleProxy" data-eventid="{{'42s-0'}}" data-comkey="{{$k}}">加入购物车</button>
+      <button class="_button data-v-02f72e78 but" type="primary" bindtap="handleProxy" data-eventid="{{'7MJ-1'}}" data-comkey="{{$k}}">立即购买</button>
+    </view>
+    <view class="_view data-v-02f72e78 product-bg" wx:if="{{status}}" bindtap="handleProxy" data-eventid="{{'W7t-2'}}" data-comkey="{{$k}}"></view>
+    <view class="_view data-v-02f72e78 product-bg-con" wx:if="{{status}}" style=" {{('height:' + (height + 'upx') + ';')}}">
+      <view class="_view data-v-02f72e78 info1">
+        <view class="_view data-v-02f72e78 uni-inline-item">
+          <text class="_text data-v-02f72e78">选择购买数量 : </text>
+          <template bindchange="handleProxy" data-eventid="{{'scF-3'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'NmB-0'],$root}}" is="725b412a"></template>
+        </view>
+      </view>
+      <view class="_view data-v-02f72e78 product-footer">
+        <button class="_button data-v-02f72e78 but" bindtap="handleProxy" data-eventid="{{'BGA-4'}}" data-comkey="{{$k}}">取消</button>
+        <button class="_button data-v-02f72e78 but" type="primary" bindtap="handleProxy" data-eventid="{{'w3j-5'}}" data-comkey="{{$k}}">确定</button>
+      </view>
+    </view>
+  </view>
+</template>

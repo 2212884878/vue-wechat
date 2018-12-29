@@ -1,0 +1,16 @@
+<import src="/components/banner.vue.wxml" />
+<import src="/components/introduce.vue.wxml" />
+<template name="891ce872">
+  <view class="_view data-v-7f279018">
+    <view class="_view data-v-7f279018 top">
+      <image src="../../../static/zhong.png" class="_image data-v-7f279018 top1"></image>
+      <view class="_view data-v-7f279018 inp">
+        <image class="_image data-v-7f279018 search" src="../../../static/search.png" mode></image>
+        <input type="text" placeholder="搜索游玩项目" class="_input data-v-7f279018 inp1" placeholder-style="color:#fff" />
+      </view>
+      <image src="../../../static/xinxi.png" class="_image data-v-7f279018 top2"></image>
+    </view>
+    <template data="{{...$root['0'], ...$root[$kk+'WKp-0'],$root}}" is="4680115a"></template>
+    <template bindgothemePark="handleProxy" bindpersonal="handleProxy" bindanimal="handleProxy" bindholtel="handleProxy" data-eventid="{{'8US-0'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'LiX-1'],$root}}" is="73870b70"></template>
+  </view>
+</template>

@@ -1,0 +1,10 @@
+<template name="ddf1fd74">
+  <view class="_view data-v-8a94efee">
+    <page-head title="{{title}}" class="_page-head data-v-8a94efee"></page-head>
+    <view class="_view data-v-8a94efee uni-common-mt">
+      <view class="_view data-v-8a94efee">
+        <map latitude="{{latitude}}" longitude="{{longitude}}" markers="{{covers}}" class="_map data-v-8a94efee"></map>
+      </view>
+    </view>
+  </view>
+</template>

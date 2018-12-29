@@ -1,0 +1,17 @@
+<template name="2630d591">
+  <view class="_view data-v-7a4a05a2 container">
+    <view class="_view data-v-7a4a05a2 page-body">
+      <scroll-view class="_scroll-view data-v-7a4a05a2 nav-left" scroll-y style=" {{'height:' + height + 'px'}}">
+        <view class="_view data-v-7a4a05a2 nav-left-item {{index == categoryActive ? 'active' : ''}}" bindtap="handleProxy" wx:key="index" key="{{index}}" data-eventid="{{'yjP-0-'+index}}" data-comkey="{{$k}}" wx:for="{{categoryList}}" wx:for-index="index"
+          wx:for-item="item"> {{item.NAME}} </view>
+      </scroll-view>
+      <scroll-view class="_scroll-view data-v-7a4a05a2 nav-right" scroll-y scroll-top="{{scrollTop}}" bindscroll="handleProxy" scroll-with-animation data-eventid="{{'BZs-1'}}" data-comkey="{{$k}}" style=" {{'height:' + height + 'px'}}">
+        <view id="{{index===0?'first':''}}" class="_view data-v-7a4a05a2 nav-right-item" wx:key="index" key="{{index}}" wx:for="{{subCategoryList}}" wx:for-index="index" wx:for-item="item">
+          <image src="{{item.LOGO}}" class="_image data-v-7a4a05a2"></image>
+          <view class="_view data-v-7a4a05a2">{{item.NAME}}</view>
+        </view>
+        <page-foot name="{{name}}" wx:if="{{subCategoryList.length > 1}}" class="_page-foot data-v-7a4a05a2"></page-foot>
+      </scroll-view>
+    </view>
+  </view>
+</template>

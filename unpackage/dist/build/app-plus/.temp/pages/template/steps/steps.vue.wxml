@@ -1,0 +1,26 @@
+<template name="94e956d2">
+  <view class="_view data-v-bad02cb0 page">
+    <page-head title="{{title}}" class="_page-head data-v-bad02cb0"></page-head>
+    <view class="_view data-v-bad02cb0 uni-steps">
+      <view class="_view data-v-bad02cb0 step">
+        <view class="_view data-v-bad02cb0 step-circle">1</view>
+        <view class="_view data-v-bad02cb0 step-content">
+          <view class="_view data-v-bad02cb0 step-title">步骤1</view>
+        </view>
+      </view>
+      <view class="_view data-v-bad02cb0 step current">
+        <view class="_view data-v-bad02cb0 step-circle">2</view>
+        <view class="_view data-v-bad02cb0 step-content">
+          <view class="_view data-v-bad02cb0 step-title">步骤2</view>
+        </view>
+      </view>
+      <view class="_view data-v-bad02cb0 step">
+        <view class="_view data-v-bad02cb0 step-circle">3</view>
+        <view class="_view data-v-bad02cb0 step-content">
+          <view class="_view data-v-bad02cb0 step-title">步骤3</view>
+        </view>
+      </view>
+    </view>
+    <view style="padding:30rpx 0; text-align:center;" class="_view data-v-bad02cb0"> 您也可以把数字步骤改成icon图标 </view>
+  </view>
+</template>

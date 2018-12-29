@@ -1,0 +1,25 @@
+<template name="315b6344">
+  <view class="_view data-v-af380072">
+    <page-head title="{{title}}" class="_page-head data-v-af380072"></page-head>
+    <view class="_view data-v-af380072 uni-padding-wrap">
+      <view class="_view data-v-af380072 uni-title">默认样式</view>
+      <view class="_view data-v-af380072">
+        <label class="_label data-v-af380072 radio">
+          <radio value="r1" checked="true" class="_radio data-v-af380072" />选中 </label>
+        <label class="_label data-v-af380072 radio">
+          <radio value="r2" class="_radio data-v-af380072" />未选中 </label>
+      </view>
+    </view>
+    <view class="_view data-v-af380072 uni-title uni-common-mt uni-common-pl">推荐展示样式</view>
+    <view class="_view data-v-af380072 uni-list">
+      <radio-group bindchange="handleProxy" data-eventid="{{'Wz7-0'}}" data-comkey="{{$k}}" class="_radio-group data-v-af380072">
+        <label class="_label data-v-af380072 uni-list-cell uni-list-cell-pd" wx:key="item.value" key="{{item.value}}" wx:for="{{items}}" wx:for-index="index" wx:for-item="item">
+          <view class="_view data-v-af380072">
+            <radio value="{{item.value}}" checked="true" class="_radio data-v-af380072" />
+          </view>
+          <view class="_view data-v-af380072">{{item.name}}</view>
+        </label>
+      </radio-group>
+    </view>
+  </view>
+</template>

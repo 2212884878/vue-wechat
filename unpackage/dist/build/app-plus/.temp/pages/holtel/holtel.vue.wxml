@@ -1,0 +1,10 @@
+<import src="/components/swiper3.vue.wxml" />
+<template name="6105ede5">
+  <view class="_view data-v-1baa3a21">
+    <template data="{{...$root['0'], ...$root[$kk+'4Fa-0'],$root}}" is="f15f0bb8"></template>
+    <view class="_view data-v-1baa3a21 content">
+      <view class="_view data-v-1baa3a21 title"> 凯悦酒店 </view>
+      <text class="_text data-v-1baa3a21 detail">奇思妙想的酒店，不仅可以推窗看海，还可以感受来自海洋欢乐世界的奇幻主题</text>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,34 @@
+<import src="/components/mpvue-wxparse/src/components/wxParseVideo.vue.wxml" />
+<import src="/components/mpvue-wxparse/src/components/wxParseAudio.vue.wxml" />
+<import src="/components/mpvue-wxparse/src/components/wxParseImg.vue.wxml" />
+<template name="654d08ce">
+  <view class="_view data-v-480dc90a">
+    <block wx:if="{{node.node == 'element'}}">
+      <block wx:if="{{node.tag == 'button'}}">
+        <button type="default" size="mini" class="_button data-v-480dc90a"></button>
+      </block>
+      <block wx:elif="{{node.tag == 'li'}}">
+        <view class="_view data-v-480dc90a {{node.classStr}}" style=" {{node.styleStr}}"> {{node.text}} </view>
+      </block>
+      <block wx:elif="{{node.tag == 'video'}}">
+        <template data="{{...$root['0'], ...$root[$kk+'rMe-0'],$root}}" is="225e734c"></template>
+      </block>
+      <block wx:elif="{{node.tag == 'audio'}}">
+        <template data="{{...$root['0'], ...$root[$kk+'vzO-1'],$root}}" is="43ba55b2"></template>
+      </block>
+      <block wx:elif="{{node.tag == 'img'}}">
+        <template data="{{...$root['0'], ...$root[$kk+'XEl-2'],$root}}" is="dbc7a658"></template>
+      </block>
+      <block wx:elif="{{node.tag == 'a'}}">
+        <view bindtap="handleProxy" data-href="{{node.attr.href}}" data-eventid="{{'Yux-0'}}" data-comkey="{{$k}}" class="_view data-v-480dc90a {{node.classStr}}" style=" {{node.styleStr}}"> {{node.text}} </view>
+      </block>
+      <block wx:elif="{{node.tag == 'br'}}">
+        <text class="_text data-v-480dc90a">\n</text>
+      </block>
+      <block wx:else>
+        <view class="_view data-v-480dc90a {{node.classStr}}" style=" {{node.styleStr}}"> {{node.text}} </view>
+      </block>
+    </block>
+    <block wx:elif="{{node.node == 'text'}}">{{node.text}}</block>
+  </view>
+</template>

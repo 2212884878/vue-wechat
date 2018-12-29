@@ -1,0 +1,37 @@
+<template name="6f9b1012">
+  <view class="_view data-v-3e7e5ea6 page">
+    <view class="_view data-v-3e7e5ea6 header">
+      <view class="_view data-v-3e7e5ea6 playDate">游玩日期</view>
+      <view class="_view data-v-3e7e5ea6 dateList">
+        <view class="_view data-v-3e7e5ea6 dateItem {{[dateItem.isSelect ? 'active' : '']}}" wx:key="index" key="{{index}}" bindtap="handleProxy" data-eventid="{{'iJF-1-'+index}}" data-comkey="{{$k}}" wx:for="{{dateList}}" wx:for-index="index" wx:for-item="dateItem">
+          <view class="_view data-v-3e7e5ea6 selectDate" wx:if="{{index==3}}">
+            <picker class="_picker data-v-3e7e5ea6 picker-item" mode="date" fields="day" start="2018-01-01" end="2019-01-01" bindchange="handleProxy" data-eventid="{{'Q4h-0-'+index}}" data-comkey="{{$k}}">
+              <view class="_view data-v-3e7e5ea6 imgageWrapper">{{dateItem.text}}{{date}}
+                <image src="../../static/buyYes.png" mode class="_image data-v-3e7e5ea6"></image>
+              </view>
+            </picker>
+          </view>
+          <view class="_view data-v-3e7e5ea6" wx:else> {{dateItem.text}} </view>
+        </view>
+      </view>
+    </view>
+    <view class="_view data-v-3e7e5ea6 uni-product-list">
+      <view class="_view data-v-3e7e5ea6 uni-product" wx:key="index" key="{{index}}" wx:for="{{productList}}" wx:for-index="index" wx:for-item="product">
+        <view class="_view data-v-3e7e5ea6 itemWrapper">
+          <navigator url="/pages/template/product-deatil/product-deatil" class="_navigator data-v-3e7e5ea6">
+            <view class="_view data-v-3e7e5ea6 image-view">
+              <image wx:if="{{renderImage}}" class="_image data-v-3e7e5ea6 uni-product-image" src="{{product.image}}"></image>
+            </view>
+            <view class="_view data-v-3e7e5ea6 itemContainer">
+              <view class="_view data-v-3e7e5ea6 uni-product-title">{{product.title}}</view>
+              <view class="_view data-v-3e7e5ea6 uni-product-price">
+                <text class="_text data-v-3e7e5ea6 uni-product-price-original">￥{{product.favourPrice}}</text>
+                <text class="_text data-v-3e7e5ea6 uni-product-tip">{{product.tip}}</text>
+              </view>
+            </view>
+          </navigator>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

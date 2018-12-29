@@ -1,0 +1,12 @@
+<template name="5a2f1e01">
+  <view class="_view data-v-64715898">
+    <view class="_view data-v-64715898 uni-list">
+      <view class="_view data-v-64715898 uni-list-cell" hover-class="uni-list-cell-hover" wx:key="index" key="{{index}}" bindtap="handleProxy" data-eventid="{{'s4F-0-'+index}}" data-comkey="{{$k}}" wx:for="{{list}}" wx:for-index="index" wx:for-item="item">
+        <view class="_view data-v-64715898 uni-media-list">
+          <image class="_image data-v-64715898 image" lazy-load src="{{item.src}}"></image>
+          <view class="_view data-v-64715898 title">{{item.name}}</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</template>

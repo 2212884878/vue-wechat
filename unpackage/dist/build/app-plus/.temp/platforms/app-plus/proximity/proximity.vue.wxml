@@ -1,0 +1,16 @@
+<template name="dcdf2d12">
+  <view class="_view data-v-94aacbf0">
+    <page-head title="{{title}}" class="_page-head data-v-94aacbf0"></page-head>
+    <view class="_view data-v-94aacbf0 uni-padding-wrap uni-common-mt">
+      <view class="_view data-v-94aacbf0 uni-hello-text"> 手机顶部听筒处有传感器监听距离手机屏幕的障碍物，覆盖该传感器会触发本事件变化 </view>
+      <view class="_view data-v-94aacbf0 uni-btn-v uni-common-mt">
+        <button type="primary" bindtap="handleProxy" data-eventid="{{'443-0'}}" data-comkey="{{$k}}" class="_button data-v-94aacbf0">获取距离传感器信息</button>
+        <button type="primary" bindtap="handleProxy" data-eventid="{{'i89-1'}}" data-comkey="{{$k}}" class="_button data-v-94aacbf0">监听距离传感器变化</button>
+        <button type="primary" bindtap="handleProxy" data-eventid="{{'vCJ-2'}}" data-comkey="{{$k}}" class="_button data-v-94aacbf0">停止监听</button>
+      </view>
+      <view class="_view data-v-94aacbf0 uni-textarea uni-common-mt">
+        <textarea value="{{value}}" class="_textarea data-v-94aacbf0" />
+      </view>
+    </view>
+  </view>
+</template>

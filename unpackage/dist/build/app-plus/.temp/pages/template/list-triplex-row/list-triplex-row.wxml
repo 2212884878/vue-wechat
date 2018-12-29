@@ -1,0 +1,1 @@
+<import src="/pages/template/list-triplex-row/list-triplex-row.vue.wxml" /><template is="dcdf9dfe" data="{{ ...$root['0'], $root }}"/>

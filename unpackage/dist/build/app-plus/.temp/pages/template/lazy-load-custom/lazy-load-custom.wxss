@@ -1,0 +1,2 @@
+@import "../../../common/vendor.wxss";
+.defaul{opacity:1;-webkit-transition:opacity .4s linear;transition:opacity .4s linear}.defaul.loaded{opacity:0}

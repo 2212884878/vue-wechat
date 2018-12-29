@@ -1,0 +1,13 @@
+
+      !(function(){
+        var uniAppViewReadyCallback = function(){
+          setCssToHead([[2,1],"body{height:auto;min-height:100%}\n.",[1],"info:after{content:\x22\x22;position:fixed;width:100%;height:100%;top:0;left:0;background:#fff;z-index:-1}\n.",[1],"one{height:",[0,150],";background:rgba(215,227,238,.3);display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;justify-content:space-between;-webkit-box-align:center;-webkit-align-items:center;align-items:center;padding-left:",[0,38],";padding-right:",[0,68],"}\n.",[1],"one-left{font-size:",[0,34],";font-weight:700;color:#333}\n.",[1],"one-right{display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-pack:start;-webkit-justify-content:flex-start;justify-content:flex-start;-webkit-box-align:center;-webkit-align-items:center;align-items:center}\n.",[1],"portrait{width:",[0,110],";height:",[0,110],";border-radius:50%;margin-right:",[0,40],"}\n.",[1],"one-img1{width:",[0,14],";height:",[0,24],"}\n.",[1],"content{padding-left:",[0,36],"}\n.",[1],"content,.",[1],"two{background-color:#fff}\n.",[1],"two{display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-pack:justify;-webkit-justify-content:space-between;justify-content:space-between;-webkit-box-align:center;-webkit-align-items:center;align-items:center;height:",[0,100],";border-bottom:1px solid #e8e8e8;padding-right:",[0,34],"}\n.",[1],"t-content{font-size:",[0,32],";font-weight:500;color:#333}\n.",[1],"two1{border-bottom:0}\n.",[1],"t-img1{width:",[0,14],";height:",[0,24],"}\n.",[1],"two-box{height:100%;display:-webkit-box;display:-webkit-flex;display:flex;-webkit-box-pack:start;-webkit-justify-content:flex-start;justify-content:flex-start;-webkit-box-align:center;-webkit-align-items:center;align-items:center}\n.",[1],"box-content{font-size:",[0,32],";font-weight:500;color:#666;margin-right:",[0,35],"}\n.",[1],"three{width:100%}\n.",[1],"btn,.",[1],"three{text-align:center}\n.",[1],"btn{margin-top:",[0,135],";width:",[0,500],";height:",[0,88],";line-height:",[0,88],";background:#0764e9;border-radius:",[0,6],";font-size:",[0,36],";font-weight:500;color:#fff}\n",],undefined,{path:"./pages/template/mine-info/mine-info.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/template/mine-info/mine-info.wxml') } }));
+        }
+        if(window.__uniAppViewReady__){
+          uniAppViewReadyCallback()
+        }else{
+          document.addEventListener('uniAppViewReady',uniAppViewReadyCallback)
+        }
+      })();
+      

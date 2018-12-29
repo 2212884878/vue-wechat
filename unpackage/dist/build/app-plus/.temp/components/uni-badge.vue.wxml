@@ -1,0 +1,7 @@
+<template name="7b2de62f">
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" class="_swiper data-v-3b781dc0">
+    <swiper-item wx:key="item" key="{{item}}" wx:for="{{itemList}}" wx:for-index="index" wx:for-item="item" class="_swiper-item data-v-3b781dc0">
+      <image src="{{item}}" mode class="_image data-v-3b781dc0"></image>
+    </swiper-item>
+  </swiper>
+</template>
